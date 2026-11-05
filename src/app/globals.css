@@ -1,0 +1,156 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ───────── Luxury core palette (light: "Ivory Edition") ───────── */
+:root {
+  --bg: #faf8f5;          /* Ivory */
+  --surface: #f2efe9;     /* Pearl */
+  --card: #ffffff;
+  --ink: #0e1116;         /* Ink */
+  --muted: #5b606b;       /* Graphite */
+  --line: rgba(14, 17, 22, 0.08);
+  --line-strong: rgba(14, 17, 22, 0.14);
+  --gold: #c9a96e;        /* Champagne Gold – decorative only */
+  --gold-soft: #e9d8b4;
+  --gold-ink: #7f6128;    /* AA-safe gold for text on ivory (≈5.6:1) */
+  --glass: rgba(250, 248, 245, 0.72);
+  --hero-a: #f7f3ec;
+  --hero-b: #ede7f6;
+  --hero-c: #e6f0f7;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 1px 2px rgba(0, 0, 0, 0.04), 0 18px 48px rgba(0, 0, 0, 0.09);
+}
+
+/* ───────── Midnight Edition ───────── */
+.dark {
+  --bg: #0b0d11;
+  --surface: #12151b;
+  --card: #161a21;
+  --ink: #f2efe9;
+  --muted: #a3a8b3;
+  --line: rgba(242, 239, 233, 0.08);
+  --line-strong: rgba(242, 239, 233, 0.16);
+  --gold: #c9a96e;
+  --gold-soft: #e9d8b4;
+  --gold-ink: #e3c992;
+  --glass: rgba(11, 13, 17, 0.68);
+  --hero-a: #14130f;
+  --hero-b: #16131d;
+  --hero-c: #0f161c;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 1px 2px rgba(0, 0, 0, 0.3), 0 18px 48px rgba(0, 0, 0, 0.5);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+  --color-gold-ink: var(--gold-ink);
+  --color-glass: var(--glass);
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-display), var(--font-inter), ui-sans-serif, sans-serif;
+  --font-mono: var(--font-mono), ui-monospace, monospace;
+  --shadow-soft: var(--shadow);
+  --shadow-lift: var(--shadow-lg);
+  --radius-xl2: 20px;
+}
+
+html {
+  background: var(--bg);
+  color: var(--ink);
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: 15.5px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "cv11", "ss01";
+}
+
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.025em;
+}
+
+.tabular {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.hero-gradient {
+  background:
+    radial-gradient(1200px 500px at 15% -10%, var(--hero-b), transparent 60%),
+    radial-gradient(900px 500px at 90% 10%, var(--hero-c), transparent 60%),
+    linear-gradient(180deg, var(--hero-a), var(--bg));
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #e9d8b4 0%, #c9a96e 100%);
+  color: #2a2010;
+}
+
+.glass {
+  background: var(--glass);
+  backdrop-filter: saturate(160%) blur(18px);
+  -webkit-backdrop-filter: saturate(160%) blur(18px);
+}
+
+.hairline {
+  border: 1px solid var(--line);
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+}
+
+.lift {
+  transition: transform 0.35s cubic-bezier(0.2, 0.7, 0.2, 1), box-shadow 0.35s ease;
+}
+.lift:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+
+.shimmer {
+  background: linear-gradient(90deg, var(--surface) 0%, var(--card) 50%, var(--surface) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.6s ease-in-out infinite;
+}
+@keyframes shimmer {
+  0% { background-position: 100% 0; }
+  100% { background-position: -100% 0; }
+}
+
+:focus-visible {
+  outline: 2px solid var(--gold-ink);
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+
+::selection {
+  background: var(--gold-soft);
+  color: #0e1116;
+}
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
