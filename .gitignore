@@ -43,3 +43,6 @@ next-env.d.ts
 # FRAMEWISE local store (admin edits, submissions)
 /.data
 !.env.example
+
+.vercel
+.env*
