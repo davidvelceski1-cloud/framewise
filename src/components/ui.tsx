@@ -10,20 +10,24 @@ import { cn } from "@/lib/utils";
 
 /* ───────── Button ───────── */
 type BtnProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
-  variant?: "primary" | "gold" | "ghost" | "outline";
+  /** primary = solid black pill · outline = black outline pill · gold = filled accent ·
+   *  light / ghostLight = for use on top of photos and banners */
+  variant?: "primary" | "gold" | "ghost" | "outline" | "light" | "ghostLight";
   size?: "sm" | "md" | "lg";
   href?: string;
 };
 export function Button({ variant = "primary", size = "md", className, href, children, ...rest }: BtnProps) {
   const cls = cn(
-    "inline-flex items-center justify-center gap-2 rounded-full font-medium transition-all duration-300 disabled:opacity-50 disabled:pointer-events-none whitespace-nowrap",
-    size === "sm" && "h-8 px-3.5 text-[13px]",
-    size === "md" && "h-10 px-5 text-sm",
-    size === "lg" && "h-12 px-7 text-[15px]",
-    variant === "primary" && "bg-ink text-bg hover:opacity-90 shadow-soft",
-    variant === "gold" && "gold-gradient shadow-soft hover:brightness-105",
+    "inline-flex items-center justify-center gap-2 rounded-full font-semibold transition-colors duration-200 disabled:opacity-50 disabled:pointer-events-none whitespace-nowrap",
+    size === "sm" && "h-8 px-4 text-[12.5px]",
+    size === "md" && "h-10 px-6 text-[13.5px]",
+    size === "lg" && "h-12 px-8 text-[15px]",
+    variant === "primary" && "bg-ink text-bg hover:bg-ink/80",
+    variant === "gold" && "gold-gradient hover:brightness-110",
     variant === "ghost" && "text-ink hover:bg-surface",
-    variant === "outline" && "hairline bg-card text-ink hover:border-line-strong hover:shadow-soft",
+    variant === "outline" && "border border-ink text-ink hover:bg-ink hover:text-bg",
+    variant === "light" && "bg-white text-black hover:bg-white/85",
+    variant === "ghostLight" && "border border-white text-white hover:bg-white hover:text-black",
     className,
   );
   if (href) {
@@ -196,8 +200,8 @@ export function SectionHeader({ eyebrow, title, desc, action }: { eyebrow?: stri
   return (
     <div className="mb-8 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
       <div className="max-w-2xl">
-        {eyebrow && <p className="mb-2 text-[12px] font-medium uppercase tracking-[0.18em] text-gold-ink">{eyebrow}</p>}
-        <h2 className="font-display text-3xl font-semibold md:text-[40px] md:leading-[1.1]">{title}</h2>
+        {eyebrow && <p className="mb-2 text-[12px] font-semibold uppercase tracking-[0.14em] text-muted">{eyebrow}</p>}
+        <h2 className="font-display text-[28px] font-bold leading-[1.15] md:text-[40px]">{title}</h2>
         {desc && <p className="mt-3 text-muted">{desc}</p>}
       </div>
       {action}

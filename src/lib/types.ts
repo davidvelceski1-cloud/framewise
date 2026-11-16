@@ -93,6 +93,10 @@ export interface Game {
   cover: [string, string, string]; // gradient stops for generated key art
   /** real cover art: an IGDB CDN URL (from the cover sync) or a local /covers/… file; falls back to generated art */
   coverUrl?: string;
+  /** wide banner art (SteamGridDB hero, ~1920×620) for full-width headers */
+  heroUrl?: string;
+  /** transparent game logo (SteamGridDB) shown over banners */
+  logoUrl?: string;
   patches: Patch[];
   profile: PerfProfile;
   /** platforms with performance entries */

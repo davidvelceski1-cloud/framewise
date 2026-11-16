@@ -55,14 +55,14 @@ async function PlatformPageBody({ params }: { params: PageProps<"/platforms/[slu
     <div>
       <section className="relative -mt-[68px] overflow-hidden pb-16 pt-[130px]">
         <div className="absolute inset-0" style={{ background: `linear-gradient(180deg, ${fam.tint}, transparent 85%), radial-gradient(70% 90% at 85% 0%, ${fam.gradient[1]}33, transparent 60%)` }} />
-        <div className="relative mx-auto grid max-w-7xl gap-10 px-6 lg:grid-cols-[1fr_minmax(0,440px)] lg:items-center">
+        <div className="relative mx-auto grid max-w-[1440px] lg:px-10 gap-10 px-6 lg:grid-cols-[1fr_minmax(0,440px)] lg:items-center">
           <div>
           <nav aria-label="Breadcrumb" className="text-[13px] text-muted"><Link href="/platforms" className="hover:text-ink">Platforms</Link> / {fam.name}</nav>
           <div className="mt-4 flex flex-wrap items-center gap-3">
             <span className="h-3 w-3 rounded-full" style={{ background: fam.primary }} />
             <span className="text-[12px] font-medium uppercase tracking-[0.18em]" style={{ color: p.family === "pc" ? "var(--muted)" : fam.primary === "#1A9FFF" ? "var(--ink)" : fam.primary }}>{fam.name}</span>
           </div>
-          <h1 className="mt-2 font-display text-4xl font-semibold md:text-6xl">{p.name}</h1>
+          <h1 className="mt-2 font-display text-4xl font-bold md:text-6xl">{p.name}</h1>
           <p className="mt-3 max-w-xl text-muted">{p.blurb}</p>
           {siblings.length > 0 && (
             <div className="mt-5 flex flex-wrap gap-2">
@@ -87,7 +87,7 @@ async function PlatformPageBody({ params }: { params: PageProps<"/platforms/[slu
         </div>
       </section>
 
-      <div className="mx-auto grid max-w-7xl gap-6 px-6 lg:grid-cols-[1fr_360px]">
+      <div className="mx-auto grid max-w-[1440px] lg:px-10 gap-6 px-6 lg:grid-cols-[1fr_360px]">
         <section>
           <h2 className="mb-5 font-display text-2xl font-semibold">Top-performing games</h2>
           {ranked.length === 0 ? (

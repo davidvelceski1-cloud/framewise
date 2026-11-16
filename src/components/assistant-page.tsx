@@ -14,7 +14,7 @@ export function AssistantPage({ hasClaude }: { hasClaude: boolean }) {
       <div className="mx-auto max-w-3xl px-6">
         <div className="text-center">
           <span className="gold-gradient mx-auto grid h-12 w-12 place-items-center rounded-2xl shadow-soft"><Sparkles size={20} /></span>
-          <h1 className="mt-5 font-display text-4xl font-semibold md:text-5xl">Ask FRAMEWISE</h1>
+          <h1 className="mt-5 font-display text-4xl font-bold md:text-5xl">Ask FRAMEWISE</h1>
           <p className="mx-auto mt-3 max-w-lg text-muted">Natural-language answers grounded only in our database. Every figure is cited; missing data is called out, never guessed.</p>
           <div className="mt-4 flex flex-wrap justify-center gap-2">
             <Pill tone={hasClaude ? "gold" : "neutral"}>{hasClaude ? "Powered by Claude + retrieval" : "Offline engine (set ANTHROPIC_API_KEY for Claude)"}</Pill>

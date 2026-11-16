@@ -57,17 +57,17 @@ export function Dashboard({ catalog }: { catalog: DashData }) {
     return [...best.values()].sort((a, b) => b.nativePixels - a.nativePixels).slice(0, 6);
   }, [data.consoles, catalog]);
 
-  if (!mounted || !user) return <div className="mx-auto max-w-7xl space-y-4 px-6"><Skeleton className="h-40" /><Skeleton className="h-72" /></div>;
+  if (!mounted || !user) return <div className="mx-auto max-w-[1440px] lg:px-10 space-y-4 px-6"><Skeleton className="h-40" /><Skeleton className="h-72" /></div>;
 
   const favGames = catalog.games.filter((g) => data.favorites.includes(g.slug));
   const alertGames = catalog.games.filter((g) => data.alerts.includes(g.slug));
 
   return (
-    <div className="mx-auto max-w-7xl px-6">
+    <div className="mx-auto max-w-[1440px] lg:px-10 px-6">
       <div className="mb-8 flex flex-wrap items-end gap-4">
         <div className="mr-auto">
           <p className="text-[12px] font-medium uppercase tracking-[0.18em] text-gold-ink">Dashboard</p>
-          <h1 className="mt-2 font-display text-4xl font-semibold">Hello, {user.name.split(" ")[0]}.</h1>
+          <h1 className="mt-2 font-display text-4xl font-bold">Hello, {user.name.split(" ")[0]}.</h1>
           <p className="text-sm text-muted">{user.email} · {user.provider === "google" ? "Google (demo)" : "Email"}</p>
         </div>
         <Link href="/admin" className="hairline flex h-10 items-center rounded-full bg-card px-4 text-sm hover:shadow-soft">Admin panel</Link>

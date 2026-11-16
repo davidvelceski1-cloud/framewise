@@ -3,7 +3,7 @@ import { Skeleton } from "./ui";
 /** Shimmer placeholder for detail pages while their params stream in. */
 export function PageSkeleton() {
   return (
-    <div className="mx-auto max-w-7xl px-6 pt-16" aria-busy="true" aria-label="Loading">
+    <div className="mx-auto max-w-[1440px] lg:px-10 px-6 pt-16" aria-busy="true" aria-label="Loading">
       <div className="grid gap-10 md:grid-cols-[300px_1fr] md:items-end">
         <Skeleton className="aspect-[3/4] w-full max-w-[300px] rounded-[18px]" />
         <div className="space-y-4">

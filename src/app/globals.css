@@ -2,48 +2,53 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-/* ───────── Luxury core palette (light: "Ivory Edition") ───────── */
+/* ───────── Core palette: clean white, black type, light-grey panels, one blue accent ─────────
+   The --gold-* names are kept so every component keeps working; they now carry the blue accent. */
 :root {
-  --bg: #faf8f5;          /* Ivory */
-  --surface: #f2efe9;     /* Pearl */
-  --card: #ffffff;
-  --ink: #0e1116;         /* Ink */
-  --muted: #5b606b;       /* Graphite */
-  --line: rgba(14, 17, 22, 0.08);
-  --line-strong: rgba(14, 17, 22, 0.14);
-  --gold: #c9a96e;        /* Champagne Gold – decorative only */
-  --gold-soft: #e9d8b4;
-  --gold-ink: #7f6128;    /* AA-safe gold for text on ivory (≈5.6:1) */
-  --glass: rgba(250, 248, 245, 0.72);
-  --hero-a: #f7f3ec;
-  --hero-b: #ede7f6;
-  --hero-c: #e6f0f7;
-  --shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.06);
-  --shadow-lg: 0 1px 2px rgba(0, 0, 0, 0.04), 0 18px 48px rgba(0, 0, 0, 0.09);
+  --bg: #ffffff;
+  --panel: #f4f4f4;       /* product-card grey */
+  --surface: #ebebeb;     /* tracks, chips and hovers inside panels */
+  --card: #ffffff;        /* inputs and elevated elements */
+  --ink: #000000;
+  --muted: #555555;       /* ≥ 6.9:1 on white, ≥ 6.3:1 on panel grey */
+  --line: rgba(0, 0, 0, 0.08);
+  --line-strong: rgba(0, 0, 0, 0.18);
+  --gold: #2189ff;        /* accent – decorative fills, stars, indicators */
+  --gold-soft: #d7e8ff;
+  --gold-ink: #0b63d6;    /* accent text/links, AA on white and panel grey */
+  --accent-solid: #1667d9;/* filled accent buttons (white text ≥ 4.9:1) */
+  --glass: rgba(255, 255, 255, 0.92);
+  --hero-a: #ffffff;
+  --hero-b: #ffffff;
+  --hero-c: #ffffff;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
-/* ───────── Midnight Edition ───────── */
 .dark {
-  --bg: #0b0d11;
-  --surface: #12151b;
-  --card: #161a21;
-  --ink: #f2efe9;
-  --muted: #a3a8b3;
-  --line: rgba(242, 239, 233, 0.08);
-  --line-strong: rgba(242, 239, 233, 0.16);
-  --gold: #c9a96e;
-  --gold-soft: #e9d8b4;
-  --gold-ink: #e3c992;
-  --glass: rgba(11, 13, 17, 0.68);
-  --hero-a: #14130f;
-  --hero-b: #16131d;
-  --hero-c: #0f161c;
-  --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
-  --shadow-lg: 0 1px 2px rgba(0, 0, 0, 0.3), 0 18px 48px rgba(0, 0, 0, 0.5);
+  --bg: #000000;
+  --panel: #151515;
+  --surface: #262626;
+  --card: #1c1c1c;
+  --ink: #ffffff;
+  --muted: #a8a8a8;
+  --line: rgba(255, 255, 255, 0.1);
+  --line-strong: rgba(255, 255, 255, 0.2);
+  --gold: #4d9dff;
+  --gold-soft: #17304f;
+  --gold-ink: #7ab4ff;
+  --accent-solid: #1e6fe6;
+  --glass: rgba(0, 0, 0, 0.9);
+  --hero-a: #000000;
+  --hero-b: #000000;
+  --hero-c: #000000;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.6);
 }
 
 @theme inline {
   --color-bg: var(--bg);
+  --color-panel: var(--panel);
   --color-surface: var(--surface);
   --color-card: var(--card);
   --color-ink: var(--ink);
@@ -78,7 +83,7 @@ body {
 
 .font-display {
   font-family: var(--font-display);
-  letter-spacing: -0.025em;
+  letter-spacing: -0.01em;
 }
 
 .tabular {
@@ -87,15 +92,13 @@ body {
 }
 
 .hero-gradient {
-  background:
-    radial-gradient(1200px 500px at 15% -10%, var(--hero-b), transparent 60%),
-    radial-gradient(900px 500px at 90% 10%, var(--hero-c), transparent 60%),
-    linear-gradient(180deg, var(--hero-a), var(--bg));
+  background: var(--bg);
 }
 
+/* filled accent (was the gold gradient) */
 .gold-gradient {
-  background: linear-gradient(135deg, #e9d8b4 0%, #c9a96e 100%);
-  color: #2a2010;
+  background: var(--accent-solid);
+  color: #ffffff;
 }
 
 .glass {
@@ -108,11 +111,10 @@ body {
   border: 1px solid var(--line);
 }
 
+/* flat light-grey panel, no border or shadow */
 .card {
-  background: var(--card);
-  border: 1px solid var(--line);
+  background: var(--panel);
   border-radius: 20px;
-  box-shadow: var(--shadow);
 }
 
 .lift {

@@ -20,8 +20,8 @@ function CoverCredit() {
 
 export function Footer() {
   return (
-    <footer className="mt-32 border-t border-line">
-      <div className="mx-auto grid max-w-7xl gap-10 px-6 py-14 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
+    <footer className="mt-24 bg-panel">
+      <div className="mx-auto grid max-w-[1440px] gap-10 px-6 py-14 md:grid-cols-[1.4fr_1fr_1fr_1fr] lg:px-10">
         <div>
           <Logo />
           <p className="mt-4 max-w-sm text-sm text-muted">Every game. Every platform. Every frame. A calm, precise reference for how games run across consoles, handhelds and PC.</p>
@@ -32,11 +32,11 @@ export function Footer() {
           { h: "Account", l: [["Sign in", "/login"], ["Saved builds", "/dashboard"], ["Submit a benchmark", "/dashboard#submit"]] },
         ].map((c) => (
           <div key={c.h}>
-            <p className="text-[12px] font-medium uppercase tracking-[0.16em] text-muted">{c.h}</p>
-            <ul className="mt-4 space-y-2.5 text-sm">
+            <p className="text-[15px] font-bold">{c.h}</p>
+            <ul className="mt-4 space-y-3 text-[13.5px] text-muted">
               {c.l.map(([label, href]) => (
                 <li key={label}>
-                  <Link href={href} className="hover:text-gold-ink">
+                  <Link href={href} className="hover:text-ink hover:underline">
                     {label}
                   </Link>
                 </li>
@@ -46,7 +46,7 @@ export function Footer() {
         ))}
       </div>
       <div className="border-t border-line">
-        <div className="mx-auto max-w-7xl space-y-2 px-6 py-6 text-[12.5px] leading-relaxed text-muted">
+        <div className="mx-auto max-w-[1440px] space-y-2 px-6 py-6 text-[12.5px] leading-relaxed text-muted lg:px-10">
           <p>
             <strong className="font-medium text-ink">Data sources.</strong> Game metadata, credits and release dates are seeded from public information and are designed to be synced from IGDB/RAWG. PC requirements are seeded from publisher store listings. Performance figures marked <em>Demo data</em> are generated for demonstration and are not real measurements; verified figures carry a source link and a ✓ badge.
           </p>

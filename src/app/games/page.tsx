@@ -12,13 +12,13 @@ export default async function GamesPage() {
   return (
     <div>
       <section className="hero-gradient -mt-[68px] pb-12 pt-[130px]">
-        <div className="mx-auto max-w-7xl px-6">
+        <div className="mx-auto max-w-[1440px] lg:px-10 px-6">
           <p className="text-[12px] font-medium uppercase tracking-[0.18em] text-gold-ink">Encyclopedia</p>
-          <h1 className="mt-3 font-display text-4xl font-semibold md:text-6xl">Games</h1>
+          <h1 className="mt-3 font-display text-4xl font-bold md:text-6xl">Games</h1>
           <p className="mt-4 max-w-xl text-muted">Filter by platform, genre, publisher, engine or performance, or describe what you want in plain language.</p>
         </div>
       </section>
-      <div className="mx-auto max-w-7xl px-6">
+      <div className="mx-auto max-w-[1440px] lg:px-10 px-6">
         <Suspense fallback={<div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">{Array.from({ length: 6 }, (_, i) => <Skeleton key={i} className="h-80" />)}</div>}>
           <GamesBrowser catalog={browseData(catalog)} />
         </Suspense>

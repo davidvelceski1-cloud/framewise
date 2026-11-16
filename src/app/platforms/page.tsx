@@ -14,12 +14,12 @@ export default async function PlatformsPage() {
   return (
     <div>
       <section className="hero-gradient -mt-[68px] pb-12 pt-[130px]">
-        <div className="mx-auto max-w-7xl px-6">
+        <div className="mx-auto max-w-[1440px] lg:px-10 px-6">
           <p className="text-[12px] font-medium uppercase tracking-[0.18em] text-gold-ink">Platforms</p>
-          <h1 className="mt-3 font-display text-4xl font-semibold md:text-6xl">Every machine, measured.</h1>
+          <h1 className="mt-3 font-display text-4xl font-bold md:text-6xl">Every machine, measured.</h1>
         </div>
       </section>
-      <div className="mx-auto max-w-7xl space-y-14 px-6">
+      <div className="mx-auto max-w-[1440px] lg:px-10 space-y-14 px-6">
         {familyOrder.map((f) => {
           const fam = families[f];
           return (

@@ -49,11 +49,11 @@ async function StudioPageBody({ params }: { params: PageProps<"/studios/[slug]">
     <div>
       <section className="relative -mt-[68px] overflow-hidden pb-14 pt-[130px]">
         <div className="absolute inset-0 opacity-30" style={{ background: `radial-gradient(60% 90% at 10% 0%, ${s.colors[0]}55, transparent 60%), radial-gradient(50% 70% at 90% 10%, ${s.colors[1]}44, transparent 60%)` }} />
-        <div className="relative mx-auto grid max-w-7xl gap-10 px-6 md:grid-cols-[auto_1fr] md:items-center">
+        <div className="relative mx-auto grid max-w-[1440px] lg:px-10 gap-10 px-6 md:grid-cols-[auto_1fr] md:items-center">
           <StudioMark studio={s} media={m} size="lg" />
           <div>
             <nav aria-label="Breadcrumb" className="text-[13px] text-muted"><Link href="/studios" className="hover:text-ink">Studios</Link> / {s.name}</nav>
-            <h1 className="mt-2 font-display text-4xl font-semibold md:text-6xl">{s.name}</h1>
+            <h1 className="mt-2 font-display text-4xl font-bold md:text-6xl">{s.name}</h1>
             <p className="mt-3 max-w-2xl text-muted">{s.history}</p>
             <div className="mt-6 flex flex-wrap gap-x-10 gap-y-4">
               <Stat label="Role">{s.kind === "both" ? "Developer & publisher" : s.kind === "studio" ? "Developer" : "Publisher"}</Stat>
@@ -88,7 +88,7 @@ async function StudioPageBody({ params }: { params: PageProps<"/studios/[slug]">
           </div>
         </div>
       </section>
-      <div className="mx-auto max-w-7xl px-6">
+      <div className="mx-auto max-w-[1440px] lg:px-10 px-6">
         <div className="card grid grid-cols-2 gap-6 p-6 md:grid-cols-4">
           <div><Counter value={games.length} className="font-display text-3xl font-semibold" /><p className="text-[12.5px] text-muted">games in catalog</p></div>
           <div><Counter value={avg(consoleBest)} decimals={1} className="font-display text-3xl font-semibold" /><p className="text-[12.5px] text-muted">avg console fps (best mode)</p></div>

@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Inter_Tight, JetBrains_Mono } from "next/font/google";
+import { Inter, JetBrains_Mono, Poppins } from "next/font/google";
 import "./globals.css";
 import { Providers } from "@/components/providers";
 import { Navbar } from "@/components/navbar";
@@ -9,7 +9,8 @@ import { AssistantWidget } from "@/components/assistant";
 import { getSearchIndex } from "@/lib/db";
 
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"], display: "swap" });
-const display = Inter_Tight({ variable: "--font-display", subsets: ["latin"], weight: ["500", "600", "700"], display: "swap" });
+// bold geometric display face for headings
+const display = Poppins({ variable: "--font-display", subsets: ["latin"], weight: ["500", "600", "700"], display: "swap" });
 const mono = JetBrains_Mono({ variable: "--font-mono", subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
@@ -19,8 +20,8 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#FAF8F5" },
-    { media: "(prefers-color-scheme: dark)", color: "#0B0D11" },
+    { media: "(prefers-color-scheme: light)", color: "#FFFFFF" },
+    { media: "(prefers-color-scheme: dark)", color: "#000000" },
   ],
 };
 
