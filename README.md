@@ -20,6 +20,7 @@ npm run build && ADMIN_TOKEN=change-me npm start
 | `ANTHROPIC_API_KEY` | Turns on Claude (`claude-opus-5-5`) for the assistant and comparison verdicts. Without it, a built-in offline engine answers from the same retrieved records. |
 | `FRAMEWISE_AI=local` | Forces the offline engine even when a key is present. |
 | `TWITCH_CLIENT_ID` / `TWITCH_CLIENT_SECRET` | Used by `npm run covers:sync` to fetch IGDB cover IDs. |
+| `STEAMGRIDDB_API_KEY` | Used by `npm run covers:sgdb` to fetch 600×900 cover art from SteamGridDB (free key: steamgriddb.com → Preferences → API). |
 | `ADMIN_TOKEN` | Required for admin and moderation API routes in production. With no token set, those routes work only under `next dev`. |
 
 ## What's where
@@ -47,6 +48,8 @@ npm run build && ADMIN_TOKEN=change-me npm start
 - `src/lib/data/games-extended.ts`: 204 more games in a compact one-line format (title, date, genres, tags, studios, engine, per-platform dates, performance flags, director, composer), expanded by `src/lib/data/expand.ts`. That makes **222 games** across 175 studio and publisher profiles. Credits are filled only where known; unknown fields show "—". Studios without a curated profile get a generated page listing their games.
 - `src/lib/data/requirements.ts`: minimum, recommended and optional Ultra PC specs for the 18 curated games, seeded from publisher listings. Verify these before production. The extended games get **estimated** specs from release year and engine. They are labeled "Estimated requirements" in the UI and "estimated (unofficial)" in assistant answers.
 - `src/lib/data/performance.ts`: **demo benchmark generator.** It derives ~2,100 plausible, deterministic entries from each game's profile and each platform's relative power. Every row is flagged `demo: true` and labeled **Demo data** in the UI. These are not real measurements.
+- `src/lib/data/media.json`: platform photos (hand-picked Wikimedia Commons files) and studio logos, CEOs/studio heads and their photos (Wikidata), with license credits. Refresh with `npm run media:sync` (no key needed); entries marked `"manual": true` are never overwritten. Leadership is shown as "per Wikidata" because it can lag real changes.
+- `src/lib/data/covers.json`: game cover art from SteamGridDB (`npm run covers:sgdb`, needs `STEAMGRIDDB_API_KEY`) or IGDB (`npm run covers:sync`).
 - `src/lib/data/hardware.ts`: GPU/CPU performance index used by the estimator. Estimates always carry a confidence level.
 - `src/lib/db.ts`: merges seed data with `.data/store.json` (admin edits and approved submissions). Reads are cached with `"use cache"` under the `catalog` tag, and admin routes expire that tag. Delete `.data/` to reset.
 

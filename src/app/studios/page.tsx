@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getCatalog } from "@/lib/db";
 import { Reveal } from "@/components/ui";
+import { PersonPhoto, StudioMark } from "@/components/media";
+import { leaderRoleLabel, studioMedia } from "@/lib/data/media";
 
 export const metadata: Metadata = { title: "Studios & Publishers" };
 
@@ -20,18 +22,27 @@ export default async function StudiosPage() {
         </div>
       </section>
       <div className="mx-auto grid max-w-7xl gap-5 px-6 sm:grid-cols-2 lg:grid-cols-3">
-        {withCount.map(({ s, n }, i) => (
+        {withCount.map(({ s, n }, i) => {
+          const m = studioMedia(s.slug);
+          return (
           <Reveal key={s.slug} delay={(i % 6) * 0.04}>
-            <Link href={`/studios/${s.slug}`} className="card lift flex items-center gap-4 p-5">
-              <span className="grid h-14 w-14 shrink-0 place-items-center rounded-2xl font-display text-[15px] font-semibold" style={{ background: `linear-gradient(140deg, ${s.colors[0]}, #0E1116)`, color: s.colors[1] }} aria-hidden>{s.monogram}</span>
-              <div className="min-w-0">
+            <Link href={`/studios/${s.slug}`} className="card lift flex h-full items-center gap-4 p-5">
+              <StudioMark studio={s} media={m} />
+              <div className="min-w-0 flex-1">
                 <p className="truncate font-display text-[17px] font-semibold">{s.name}</p>
                 <p className="text-[12.5px] text-muted">{s.kind === "both" ? "Developer & publisher" : s.kind === "studio" ? "Developer" : "Publisher"}{s.hq ? ` · ${s.hq.split(",").pop()?.trim()}` : ""}</p>
                 <p className="tabular mt-1 text-[12px] text-muted">{n} game{n > 1 ? "s" : ""}</p>
+                {m?.leader && (
+                  <p className="mt-2.5 flex items-center gap-2 border-t border-line pt-2.5 text-[12.5px]">
+                    <PersonPhoto name={m.leader.name} photo={m.leader.photo} size={26} />
+                    <span className="min-w-0 truncate"><span className="text-muted">{leaderRoleLabel(m.leader.role)} · </span>{m.leader.name}</span>
+                  </p>
+                )}
               </div>
             </Link>
           </Reveal>
-        ))}
+          );
+        })}
       </div>
     </div>
   );

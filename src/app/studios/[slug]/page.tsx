@@ -9,6 +9,8 @@ import { bestTestPerPlatform } from "@/lib/analysis";
 import { platformById } from "@/lib/platforms";
 import { GameCard } from "@/components/game-card";
 import { Counter, Stat } from "@/components/ui";
+import { Credit, PersonPhoto, StudioMark } from "@/components/media";
+import { leaderRoleLabel, studioMedia } from "@/lib/data/media";
 
 export function generateStaticParams() {
   return studios.map((s) => ({ slug: s.slug }));
@@ -34,6 +36,7 @@ async function StudioPageBody({ params }: { params: PageProps<"/studios/[slug]">
   const cat = await getCatalog();
   const s = cat.studios.find((x) => x.slug === slug);
   if (!s) notFound();
+  const m = studioMedia(s.slug);
   const games = cat.games.filter((g) => g.developers.includes(s.slug) || g.publishers.includes(s.slug));
   const tests = cat.tests.filter((t) => games.some((g) => g.slug === t.gameSlug));
   const best = games.flatMap((g) => bestTestPerPlatform(tests.filter((t) => t.gameSlug === g.slug)));
@@ -47,7 +50,7 @@ async function StudioPageBody({ params }: { params: PageProps<"/studios/[slug]">
       <section className="relative -mt-[68px] overflow-hidden pb-14 pt-[130px]">
         <div className="absolute inset-0 opacity-30" style={{ background: `radial-gradient(60% 90% at 10% 0%, ${s.colors[0]}55, transparent 60%), radial-gradient(50% 70% at 90% 10%, ${s.colors[1]}44, transparent 60%)` }} />
         <div className="relative mx-auto grid max-w-7xl gap-10 px-6 md:grid-cols-[auto_1fr] md:items-center">
-          <span className="grid h-32 w-32 place-items-center rounded-[28px] font-display text-4xl font-semibold shadow-lift" style={{ background: `linear-gradient(140deg, ${s.colors[0]}, #0E1116)`, color: s.colors[1] }} aria-label={`${s.name} monogram`}>{s.monogram}</span>
+          <StudioMark studio={s} media={m} size="lg" />
           <div>
             <nav aria-label="Breadcrumb" className="text-[13px] text-muted"><Link href="/studios" className="hover:text-ink">Studios</Link> / {s.name}</nav>
             <h1 className="mt-2 font-display text-4xl font-semibold md:text-6xl">{s.name}</h1>
@@ -58,6 +61,30 @@ async function StudioPageBody({ params }: { params: PageProps<"/studios/[slug]">
               {s.hq && <Stat label="Headquarters">{s.hq}</Stat>}
               {s.parent && <Stat label="Parent">{s.parent}</Stat>}
             </div>
+            {m?.leader && (
+              <div className="card mt-8 inline-flex max-w-full items-center gap-4 p-4 pr-6">
+                <PersonPhoto name={m.leader.name} photo={m.leader.photo} size={72} />
+                <div className="min-w-0">
+                  <p className="text-[11px] font-medium uppercase tracking-[0.16em] text-gold-ink">{leaderRoleLabel(m.leader.role)}</p>
+                  <p className="font-display text-xl font-semibold">{m.leader.name}</p>
+                  <p className="text-[11px] text-muted">
+                    Per{" "}
+                    <a href={m.leader.source === "wikidata" && m.leader.wikidata ? `https://www.wikidata.org/wiki/${m.leader.wikidata}` : (m.wikipedia ?? m.leader.wikipedia)} target="_blank" rel="noreferrer noopener" className="underline underline-offset-2 hover:text-ink">
+                      {m.leader.source === "wikidata" ? "Wikidata" : "Wikipedia"}
+                    </a>
+                    ; may lag recent changes.
+                  </p>
+                  {m.leader.photo && <Credit image={m.leader.photo} className="mt-0.5" />}
+                </div>
+              </div>
+            )}
+            {(m?.logo || m?.person?.photo || m?.wikipedia) && (
+              <div className="mt-4 space-y-0.5">
+                {m.logo && <Credit image={m.logo} label="Logo" />}
+                {m.person?.photo && <Credit image={m.person.photo} />}
+                {m.wikipedia && <p className="text-[11px] text-muted"><a href={m.wikipedia} target="_blank" rel="noreferrer noopener" className="underline underline-offset-2 hover:text-ink">Read more on Wikipedia</a></p>}
+              </div>
+            )}
           </div>
         </div>
       </section>

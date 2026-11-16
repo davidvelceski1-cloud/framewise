@@ -4,6 +4,8 @@ import { ArrowRight } from "lucide-react";
 import { getCatalog } from "@/lib/db";
 import { families, familyOrder, platforms } from "@/lib/platforms";
 import { Reveal } from "@/components/ui";
+import { PlatformPhoto } from "@/components/media";
+import { platformImage } from "@/lib/data/media";
 
 export const metadata: Metadata = { title: "Platforms", description: "Hardware specs and top-performing games for every console, handheld and PC preset." };
 
@@ -32,9 +34,14 @@ export default async function PlatformsPage() {
                   return (
                     <Reveal key={p.id} delay={i * 0.05}>
                       <Link href={`/platforms/${p.slug}`} className="card lift group block overflow-hidden">
-                        <div className="relative h-28 p-5 text-white" style={{ background: `linear-gradient(135deg, ${fam.gradient[0]}, ${fam.gradient[1]})` }}>
-                          <p className="text-[11px] uppercase tracking-[0.16em] text-white/75">{fam.name}</p>
-                          <p className="mt-1 font-display text-2xl font-semibold">{p.short}</p>
+                        <div className="relative h-44 overflow-hidden p-5 text-white" style={{ background: `linear-gradient(135deg, ${fam.gradient[0]}, ${fam.gradient[1]})` }}>
+                          {platformImage(p.slug) && (
+                            <PlatformPhoto image={platformImage(p.slug)!} alt={`${p.name} hardware`} sizes="(max-width: 768px) 70vw, 300px" className="absolute inset-y-0 right-0 w-[65%] transition duration-500 group-hover:scale-[1.04]" />
+                          )}
+                          <div className="relative max-w-[50%]" style={{ textShadow: "0 1px 12px rgba(0,0,0,.35)" }}>
+                            <p className="text-[11px] uppercase tracking-[0.16em] text-white/80">{fam.name}</p>
+                            <p className="mt-1 font-display text-2xl font-semibold">{p.short}</p>
+                          </div>
                         </div>
                         <div className="p-5">
                           <p className="text-[13.5px] text-muted">{p.blurb}</p>
