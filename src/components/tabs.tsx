@@ -24,7 +24,7 @@ export function Tabs({ tabs }: { tabs: { id: string; label: string; content: Rea
 
   return (
     <div>
-      <div role="tablist" aria-label="Game sections" className="no-scrollbar hairline sticky top-[76px] z-20 flex gap-1 overflow-x-auto rounded-full bg-card/80 p-1 backdrop-blur-md">
+      <div role="tablist" aria-label="Game sections" className="no-scrollbar sticky top-[68px] z-20 -mx-6 flex justify-start gap-6 overflow-x-auto border-b border-line bg-bg px-6 md:justify-center md:gap-10">
         {tabs.map((t, i) => (
           <button
             key={t.id}
@@ -38,9 +38,9 @@ export function Tabs({ tabs }: { tabs: { id: string; label: string; content: Rea
               if (e.key === "ArrowRight") select(tabs[(i + 1) % tabs.length].id);
               if (e.key === "ArrowLeft") select(tabs[(i - 1 + tabs.length) % tabs.length].id);
             }}
-            className={cn("relative h-9 shrink-0 rounded-full px-4 text-[13.5px] transition-colors", active === t.id ? "text-bg" : "text-muted hover:text-ink")}
+            className={cn("relative h-14 shrink-0 text-[15px] transition-colors", active === t.id ? "font-bold text-ink" : "font-medium text-muted hover:text-ink")}
           >
-            {active === t.id && <motion.span layoutId={`${uid}-pill`} className="absolute inset-0 rounded-full bg-ink" transition={{ type: "spring", stiffness: 400, damping: 34 }} />}
+            {active === t.id && <motion.span layoutId={`${uid}-pill`} className="absolute inset-x-0 bottom-0 h-[3px] rounded-full bg-ink" transition={{ type: "spring", stiffness: 400, damping: 34 }} />}
             <span className="relative">{t.label}</span>
           </button>
         ))}

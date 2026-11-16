@@ -9,12 +9,12 @@ export function GameCard({ game, tests, evidence }: { game: Game; tests: Perform
   const best = bestTestPerPlatform(tests);
   const top = evidence ?? best[0];
   return (
-    <Link href={`/games/${game.slug}`} className="card lift group block overflow-hidden p-2.5">
-      <GameCover title={game.title} cover={game.cover} image={game.coverUrl} className="aspect-[4/3] w-full" />
-      <div className="px-2 pb-2 pt-4">
+    <Link href={`/games/${game.slug}`} className="card lift group block overflow-hidden p-5">
+      <GameCover title={game.title} cover={game.cover} image={game.coverUrl} className="mx-auto aspect-[3/4] w-[62%] max-w-[200px] rounded-xl shadow-lift" />
+      <div className="pt-5">
         <div className="flex items-start justify-between gap-3">
           <div className="min-w-0">
-            <h3 className="truncate font-display text-[17px] font-semibold">{game.title}</h3>
+            <h3 className="truncate font-display text-[17px] font-bold">{game.title}</h3>
             <p className="text-[13px] text-muted">
               {game.releaseDate.slice(0, 4)} · {game.genres.join(" · ")}
             </p>

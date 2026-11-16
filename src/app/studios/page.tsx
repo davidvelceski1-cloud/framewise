@@ -16,12 +16,12 @@ export default async function StudiosPage() {
   return (
     <div>
       <section className="hero-gradient -mt-[68px] pb-12 pt-[130px]">
-        <div className="mx-auto max-w-7xl px-6">
+        <div className="mx-auto max-w-[1440px] lg:px-10 px-6">
           <p className="text-[12px] font-medium uppercase tracking-[0.18em] text-gold-ink">Studios & publishers</p>
-          <h1 className="mt-3 font-display text-4xl font-semibold md:text-6xl">The people behind the frames.</h1>
+          <h1 className="mt-3 font-display text-4xl font-bold md:text-6xl">The people behind the frames.</h1>
         </div>
       </section>
-      <div className="mx-auto grid max-w-7xl gap-5 px-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mx-auto grid max-w-[1440px] lg:px-10 gap-5 px-6 sm:grid-cols-2 lg:grid-cols-3">
         {withCount.map(({ s, n }, i) => {
           const m = studioMedia(s.slug);
           return (

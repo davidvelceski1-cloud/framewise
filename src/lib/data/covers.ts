@@ -14,6 +14,9 @@ export interface CoverEntry {
   source?: "igdb" | "steamgriddb";
   sgdbGameId?: number;
   sgdbName?: string;
+  /** wide banner and transparent logo, from `npm run covers:sgdb -- --art` */
+  hero?: string;
+  logo?: string;
   manual?: boolean;
 }
 
@@ -29,7 +32,10 @@ export function coverUrlFor(slug: string): string | undefined {
   return e.imageId ? igdbCoverUrl(e.imageId) : undefined;
 }
 
-export const coverCount = () => Object.values(map).filter((e) => e.url || e.imageId).length;
+export const heroUrlFor = (slug: string): string | undefined => map[slug]?.hero;
+export const logoUrlFor = (slug: string): string | undefined => map[slug]?.logo;
+
+export const coverCount =() => Object.values(map).filter((e) => e.url || e.imageId).length;
 
 /** Which sources supplied the synced covers, for the footer credit. */
 export const coverSources = () => {

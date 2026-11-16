@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
+import Image from "next/image";
 import { PageSkeleton } from "@/components/page-skeleton";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -215,17 +216,24 @@ async function GamePageBody({ params }: { params: PageProps<"/games/[slug]">["pa
 
   return (
     <article>
-      <header className="relative -mt-[68px] overflow-hidden pt-[120px]">
-        <div className="absolute inset-0 opacity-[0.22] blur-3xl" style={{ background: `radial-gradient(60% 80% at 20% 20%, ${game.cover[1]}, transparent 60%), radial-gradient(60% 80% at 90% 10%, ${game.cover[2]}, transparent 60%)` }} />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-bg" />
-        <div className="relative mx-auto grid max-w-7xl gap-10 px-6 pb-14 md:grid-cols-[300px_1fr] md:items-end">
+      <header className="relative">
+        {/* full-width banner art */}
+        <div className="relative h-[280px] overflow-hidden bg-black md:h-[440px]">
+          {game.heroUrl ? (
+            <Image src={game.heroUrl} alt="" fill priority sizes="100vw" className="object-cover" />
+          ) : (
+            <div className="absolute inset-0" style={{ background: `linear-gradient(140deg, ${game.cover[0]}, ${game.cover[2]})` }} />
+          )}
+          <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-bg via-bg/50 to-transparent" />
+        </div>
+        <div className="relative mx-auto -mt-40 grid max-w-[1440px] gap-10 px-6 pb-14 md:-mt-56 md:grid-cols-[300px_1fr] md:items-end lg:px-10">
           <Reveal>
             <GameCover title={game.title} cover={game.cover} image={game.coverUrl} size="lg" className="aspect-[3/4] w-full max-w-[300px] shadow-lift" />
           </Reveal>
           <Reveal delay={0.06}>
             <div>
               <nav aria-label="Breadcrumb" className="text-[13px] text-muted"><Link href="/games" className="hover:text-ink">Games</Link> <span className="mx-1">/</span> {game.title}</nav>
-              <h1 className="mt-3 font-display text-4xl font-semibold leading-[1.05] md:text-6xl">{game.title}</h1>
+              <h1 className="mt-3 font-display text-4xl font-bold leading-[1.08] md:text-[56px]">{game.title}</h1>
               <p className="mt-3 max-w-2xl text-[17px] text-muted">{game.tagline}</p>
               <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-3 text-[13.5px]">
                 <span><span className="text-muted">Released</span> <span className="tabular">{formatDate(game.releaseDate)}</span></span>
@@ -249,7 +257,7 @@ async function GamePageBody({ params }: { params: PageProps<"/games/[slug]">["pa
           </Reveal>
         </div>
       </header>
-      <div className="mx-auto max-w-7xl px-6">
+      <div className="mx-auto max-w-[1440px] px-6 lg:px-10">
         <Tabs
           tabs={[
             { id: "overview", label: "Overview", content: overview },

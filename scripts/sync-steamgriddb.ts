@@ -4,6 +4,7 @@
  *   npm run covers:sgdb            # fill in games that don't have a cover yet
  *   npm run covers:sgdb -- --force # re-check every game (manual entries are kept)
  *   npm run covers:sgdb -- --dry   # show matches without writing
+ *   npm run covers:sgdb -- --art   # also add a wide hero banner + transparent logo per game
  *
  * Needs STEAMGRIDDB_API_KEY (free: log in at https://www.steamgriddb.com, then
  * Preferences → API), read from the environment or .env.local.
@@ -81,8 +82,39 @@ async function bestGrid(gameId: number): Promise<SgdbGrid | null> {
   return ok[0] ?? null;
 }
 
+interface SgdbArt { id: number; score: number; style: string; url: string; width: number; height: number; nsfw: boolean; humor: boolean; epilepsy?: boolean }
+const sfw = (a: SgdbArt) => !a.nsfw && !a.humor && !a.epilepsy;
+
+/** `--art`: add a wide hero banner and a transparent logo to every matched game. */
+async function syncArt(existing: Record<string, CoverEntry>) {
+  const result = { ...existing };
+  const todo = Object.entries(existing).filter(([, e]) => e.sgdbGameId && !e.manual && (FORCE || !e.hero || !e.logo));
+  console.log(`${todo.length} games to fetch banner + logo for${DRY ? " (dry run)" : ""}`);
+  let heroes = 0;
+  let logos = 0;
+  for (const [i, [slug, e]] of todo.entries()) {
+    const q = "types=static&nsfw=false&humor=false&epilepsy=false";
+    const h = ((await get<SgdbArt[]>(`/heroes/game/${e.sgdbGameId}?${q}`)) ?? []).filter((a) => sfw(a) && a.width >= 1600).sort((a, b) => b.score - a.score)[0];
+    await sleep(200);
+    const allLogos = ((await get<SgdbArt[]>(`/logos/game/${e.sgdbGameId}?${q}`)) ?? []).filter(sfw);
+    // prefer the publisher's official logo, then the most popular one
+    const l = [...allLogos].sort((a, b) => Number(b.style === "official") - Number(a.style === "official") || b.score - a.score)[0];
+    result[slug] = { ...e, ...(h && { hero: h.url }), ...(l && { logo: l.url }) };
+    if (h) heroes++;
+    if (l) logos++;
+    console.log(`  ${h ? "✓" : "·"}${l ? "✓" : "·"} [${i + 1}/${todo.length}] ${e.sgdbName ?? slug}`);
+    await sleep(200);
+  }
+  if (!DRY) {
+    const sorted = Object.fromEntries(Object.entries(result).sort(([a], [b]) => a.localeCompare(b)));
+    writeFileSync(OUT, JSON.stringify(sorted, null, 2) + "\n");
+  }
+  console.log(`\nBanners: ${heroes}/${todo.length} · logos: ${logos}/${todo.length}.${DRY ? "" : ` Wrote ${path.relative(process.cwd(), OUT)}.`}`);
+}
+
 async function main() {
   const existing = JSON.parse(readFileSync(OUT, "utf8")) as Record<string, CoverEntry>;
+  if (args.has("--art")) return syncArt(existing);
   const result: Record<string, CoverEntry> = { ...existing };
   const todo = allSeedGames.filter((g) => !existing[g.slug]?.manual && (FORCE || !(existing[g.slug]?.imageId || existing[g.slug]?.url)));
   console.log(`${allSeedGames.length} games · ${todo.length} to look up${DRY ? " (dry run)" : ""}`);

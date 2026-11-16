@@ -15,13 +15,13 @@ export default async function ComparePage() {
   return (
     <div>
       <section className="hero-gradient -mt-[68px] pb-10 pt-[130px]">
-        <div className="mx-auto max-w-7xl px-6">
+        <div className="mx-auto max-w-[1440px] lg:px-10 px-6">
           <p className="text-[12px] font-medium uppercase tracking-[0.18em] text-gold-ink">The Comparator</p>
-          <h1 className="mt-3 max-w-3xl font-display text-4xl font-semibold leading-[1.05] md:text-6xl">One game. Every platform. Side by side.</h1>
+          <h1 className="mt-3 max-w-3xl font-display text-4xl font-bold leading-[1.05] md:text-6xl">One game. Every platform. Side by side.</h1>
           <p className="mt-4 max-w-xl text-muted">Pick a game, choose platforms and modes, and see exactly where it runs best.</p>
         </div>
       </section>
-      <div className="mx-auto max-w-7xl px-6">
+      <div className="mx-auto max-w-[1440px] lg:px-10 px-6">
         <Suspense fallback={<div className="space-y-4"><Skeleton className="h-28 w-full" /><Skeleton className="h-96 w-full" /></div>}>
           <Comparator games={games} />
         </Suspense>
