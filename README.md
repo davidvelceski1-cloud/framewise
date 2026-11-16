@@ -4,6 +4,24 @@ Every game. Every platform. Every frame. FRAMEWISE is a reference for game credi
 
 Built with Next.js 16 (App Router, Cache Components), TypeScript, Tailwind CSS v4, Framer Motion, Recharts and the Anthropic SDK.
 
+**Live site:** https://framewise-jet.vercel.app
+
+## Screenshots
+
+![Home page: full-width rotating game banner with logo, headline and pill buttons](docs/screenshots/home.png)
+
+| Game page | Cross-platform comparator |
+|---|---|
+| ![Elden Ring game page: full-width banner, cover, credits and performance snapshot](docs/screenshots/game.png) | ![Comparator for Cyberpunk 2077: platform picker, AI verdict and best-platform card](docs/screenshots/compare.png) |
+
+| Platforms | Studios & publishers |
+|---|---|
+| ![Platforms page: a hardware photo for every console and PC preset](docs/screenshots/platforms.png) | ![Studios page: logos and CEO or studio head for each studio](docs/screenshots/studios.png) |
+
+| Dark mode | Mobile |
+|---|---|
+| ![Home page in dark mode](docs/screenshots/home-dark.png) | <img src="docs/screenshots/mobile.png" alt="Home page on a phone" width="300"> |
+
 ## Run it
 
 ```bash
