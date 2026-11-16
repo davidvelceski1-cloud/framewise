@@ -1,6 +1,22 @@
 import Link from "next/link";
 import { Logo } from "./navbar";
-import { coverCount } from "@/lib/data/covers";
+import { coverCount, coverSources } from "@/lib/data/covers";
+
+const creditLink = "underline underline-offset-2 hover:text-ink";
+
+function CoverCredit() {
+  if (coverCount() === 0) return <>Cover art is generated.</>;
+  const { igdb, steamgriddb } = coverSources();
+  return (
+    <>
+      Cover art courtesy of{" "}
+      {igdb && <a href="https://www.igdb.com" className={creditLink} target="_blank" rel="noreferrer noopener">IGDB.com</a>}
+      {igdb && steamgriddb && " and "}
+      {steamgriddb && <a href="https://www.steamgriddb.com" className={creditLink} target="_blank" rel="noreferrer noopener">SteamGridDB</a>}
+      ; games without a synced cover show generated art.
+    </>
+  );
+}
 
 export function Footer() {
   return (
@@ -34,7 +50,7 @@ export function Footer() {
           <p>
             <strong className="font-medium text-ink">Data sources.</strong> Game metadata, credits and release dates are seeded from public information and are designed to be synced from IGDB/RAWG. PC requirements are seeded from publisher store listings. Performance figures marked <em>Demo data</em> are generated for demonstration and are not real measurements; verified figures carry a source link and a ✓ badge.
           </p>
-          <p>All trademarks, platform names and game titles belong to their respective owners. FRAMEWISE is an independent reference and is not affiliated with Sony, Microsoft, Nintendo or Valve. {coverCount() > 0 ? <>Cover art courtesy of <a href="https://www.igdb.com" className="underline underline-offset-2 hover:text-ink" target="_blank" rel="noreferrer noopener">IGDB.com</a>; games without a synced cover show generated art.</> : "Cover art is generated."}</p>
+          <p>All trademarks, platform names and game titles belong to their respective owners. FRAMEWISE is an independent reference and is not affiliated with Sony, Microsoft, Nintendo or Valve. <CoverCredit /> Hardware photos, studio logos and portraits come from <a href="https://commons.wikimedia.org" className={creditLink} target="_blank" rel="noreferrer noopener">Wikimedia Commons</a> under their stated licenses (credited where shown); studio leadership is per <a href="https://www.wikidata.org" className={creditLink} target="_blank" rel="noreferrer noopener">Wikidata</a>.</p>
           <p>© FRAMEWISE</p>
         </div>
       </div>

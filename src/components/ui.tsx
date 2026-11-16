@@ -100,13 +100,13 @@ export function SourceBadge({ verified, demo, label }: { verified: boolean; demo
 }
 
 /* ───────── Cover art: real cover when available, generated art otherwise ───────── */
-const IGDB_HOST = "images.igdb.com";
+const OPTIMIZED_HOSTS = new Set(["images.igdb.com", "cdn2.steamgriddb.com"]); // must match images.remotePatterns
 
 function CoverImage({ src, title, size, onFail }: { src: string; title: string; size: "sm" | "md" | "lg"; onFail: () => void }) {
   // smaller thumbnails use IGDB's 264px rendition instead of the 2x one
   const url = size === "sm" ? src.replace("/t_cover_big_2x/", "/t_cover_big/") : src;
   const sizes = size === "lg" ? "300px" : size === "md" ? "(max-width: 640px) 100vw, 400px" : "120px";
-  const optimizable = url.startsWith("/") || new URL(url).hostname === IGDB_HOST;
+  const optimizable = url.startsWith("/") || OPTIMIZED_HOSTS.has(new URL(url).hostname);
   if (!optimizable) {
     // admin-entered URLs on other hosts aren't in images.remotePatterns, so use a plain lazy image
     return (

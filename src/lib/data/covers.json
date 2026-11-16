@@ -1,1 +1,1334 @@
-{}
+{
+  "a-plague-tale-requiem": {
+    "url": "https://cdn2.steamgriddb.com/grid/d35e35d7ff517c25fd855cf08bc95d3c.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5287667,
+    "sgdbName": "A Plague Tale: Requiem"
+  },
+  "age-of-empires-iv": {
+    "url": "https://cdn2.steamgriddb.com/grid/cc591ca342c64e1a8046be9946212d32.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5252445,
+    "sgdbName": "Age of Empires IV"
+  },
+  "alan-wake-2": {
+    "url": "https://cdn2.steamgriddb.com/grid/a7147fd59ab64d16e49e819733ad2187.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5309266,
+    "sgdbName": "Alan Wake 2"
+  },
+  "alan-wake-remastered": {
+    "url": "https://cdn2.steamgriddb.com/grid/f25f7b9e7ee973a3720e1261cf3a30c8.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5296316,
+    "sgdbName": "Alan Wake Remastered"
+  },
+  "animal-crossing-new-horizons": {
+    "url": "https://cdn2.steamgriddb.com/grid/078d2a1275f0d53cda67d165440aeb50.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5257932,
+    "sgdbName": "Animal Crossing: New Horizons"
+  },
+  "apex-legends": {
+    "url": "https://cdn2.steamgriddb.com/grid/0d7a3aef18b1eb97e70a5148e2a2646f.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 35001,
+    "sgdbName": "Apex Legends"
+  },
+  "armored-core-vi-fires-of-rubicon": {
+    "url": "https://cdn2.steamgriddb.com/grid/947311776d58362bacda9495a9b32182.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5370157,
+    "sgdbName": "Armored Core VI: Fires of Rubicon"
+  },
+  "assassins-creed-mirage": {
+    "url": "https://cdn2.steamgriddb.com/grid/b00be8459cbd14caad11bf6c22c1dc2b.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5352379,
+    "sgdbName": "Assassin's Creed Mirage"
+  },
+  "assassins-creed-odyssey": {
+    "url": "https://cdn2.steamgriddb.com/grid/132d16811e7db45a5c501541c275851c.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 26179,
+    "sgdbName": "Assassin's Creed Odyssey"
+  },
+  "assassins-creed-shadows": {
+    "url": "https://cdn2.steamgriddb.com/grid/fc16eb2e13f50f6905393c474820bbd8.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5353927,
+    "sgdbName": "Assassin's Creed Shadows"
+  },
+  "assassins-creed-valhalla": {
+    "url": "https://cdn2.steamgriddb.com/grid/e2ea9e1f3d2660dc641143e35e7e6767.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5259692,
+    "sgdbName": "Assassin's Creed Valhalla"
+  },
+  "astro-bot": {
+    "url": "https://cdn2.steamgriddb.com/grid/a350d0242847ce6bf914261c6e2712c1.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5454475,
+    "sgdbName": "Astro Bot"
+  },
+  "atomic-heart": {
+    "url": "https://cdn2.steamgriddb.com/grid/d667282afbb5f942498fdfc512b93d1f.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 19655,
+    "sgdbName": "Atomic Heart"
+  },
+  "avatar-frontiers-of-pandora": {
+    "url": "https://cdn2.steamgriddb.com/grid/f605461477eb8b7ab10cb504c0b99488.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5438536,
+    "sgdbName": "Avatar: Frontiers of Pandora"
+  },
+  "avowed": {
+    "url": "https://cdn2.steamgriddb.com/grid/752cc8d43ec503f5a3d3c5a4cdee093f.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5269485,
+    "sgdbName": "Avowed"
+  },
+  "balatro": {
+    "url": "https://cdn2.steamgriddb.com/grid/d70b4d9fdf0af0a00814b91fa82b3d4c.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5403326,
+    "sgdbName": "Balatro"
+  },
+  "baldurs-gate-3": {
+    "url": "https://cdn2.steamgriddb.com/grid/b122b82883a834cbcec5c2d2f5c0585c.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5138060,
+    "sgdbName": "Baldur's Gate III"
+  },
+  "batman-arkham-knight": {
+    "url": "https://cdn2.steamgriddb.com/grid/f84188cb2659a5c8c875d7f0e9fc847c.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 1947,
+    "sgdbName": "Batman: Arkham Knight"
+  },
+  "battlefield-2042": {
+    "url": "https://cdn2.steamgriddb.com/grid/2720a5a68d93c81033704613e28e1a5f.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5272774,
+    "sgdbName": "Battlefield 2042"
+  },
+  "battlefield-6": {
+    "url": "https://cdn2.steamgriddb.com/grid/82e43901d337d05ef3ae610442c8606b.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5496319,
+    "sgdbName": "Battlefield 6"
+  },
+  "black-myth-wukong": {
+    "url": "https://cdn2.steamgriddb.com/grid/9130e5ada60abd2e13efb19571cede1d.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5269886,
+    "sgdbName": "Black Myth: Wukong"
+  },
+  "bloodborne": {
+    "url": "https://cdn2.steamgriddb.com/grid/021399af062379408df9c358a1a83cdb.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5246746,
+    "sgdbName": "Bloodborne"
+  },
+  "borderlands-3": {
+    "url": "https://cdn2.steamgriddb.com/grid/c039e6496e67fdb3d46e6d5877e01ed2.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5245300,
+    "sgdbName": "Borderlands 3"
+  },
+  "borderlands-4": {
+    "url": "https://cdn2.steamgriddb.com/grid/1d3e544a967aa50d57d5956af7e243d3.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5462355,
+    "sgdbName": "Borderlands 4"
+  },
+  "call-of-duty-black-ops-6": {
+    "url": "https://cdn2.steamgriddb.com/grid/a1aa2acf1f3eacd2cda1110a4f1aa410.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5452948,
+    "sgdbName": "Call of Duty: Black Ops 6"
+  },
+  "call-of-duty-modern-warfare-iii": {
+    "url": "https://cdn2.steamgriddb.com/grid/ca6987ae3a5d098c9c357061f857b8e3.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5420962,
+    "sgdbName": "Call of Duty: Modern Warfare III"
+  },
+  "celeste": {
+    "url": "https://cdn2.steamgriddb.com/grid/074aed57c243ae7020971ca7c9fe0f29.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 13136,
+    "sgdbName": "Celeste"
+  },
+  "cities-skylines-ii": {
+    "url": "https://cdn2.steamgriddb.com/grid/b550b09e83026f8a11a0354dfc503974.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5387339,
+    "sgdbName": "Cities: Skylines II"
+  },
+  "clair-obscur-expedition-33": {
+    "url": "https://cdn2.steamgriddb.com/grid/e7fff0c2739cf86c8aa5559eefe74220.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5454521,
+    "sgdbName": "Clair Obscur: Expedition 33"
+  },
+  "control": {
+    "url": "https://cdn2.steamgriddb.com/grid/f4d3ed0c74282c3737b540ae25e2bfd1.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5287367,
+    "sgdbName": "Control"
+  },
+  "counter-strike-2": {
+    "url": "https://cdn2.steamgriddb.com/grid/0662aa1719017e0efa5fa8daf0880c6e.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5363838,
+    "sgdbName": "Counter-Strike 2"
+  },
+  "crash-bandicoot-4-its-about-time": {
+    "url": "https://cdn2.steamgriddb.com/grid/57df09a239a55631c33266faef7f7331.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5262758,
+    "sgdbName": "Crash Bandicoot 4: It's About Time"
+  },
+  "crusader-kings-iii": {
+    "url": "https://cdn2.steamgriddb.com/grid/44f7c4c0aa53f6dcd25571253c153746.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5249662,
+    "sgdbName": "Crusader Kings III"
+  },
+  "cult-of-the-lamb": {
+    "url": "https://cdn2.steamgriddb.com/grid/579d9775e40fd4b559f01d242961f45f.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5294443,
+    "sgdbName": "Cult of the Lamb"
+  },
+  "cuphead": {
+    "url": "https://cdn2.steamgriddb.com/grid/25dcf1554f13c36b512dfe907acc77d3.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 3583,
+    "sgdbName": "Cuphead"
+  },
+  "cyberpunk-2077": {
+    "url": "https://cdn2.steamgriddb.com/grid/f39b781760a403dedaa05587e8889c1a.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5209422,
+    "sgdbName": "Cyberpunk 2077"
+  },
+  "dark-souls-iii": {
+    "url": "https://cdn2.steamgriddb.com/grid/9085f5ef67f2f7f0f38e869ffb5016a1.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 7874,
+    "sgdbName": "Dark Souls III"
+  },
+  "dark-souls-remastered": {
+    "url": "https://cdn2.steamgriddb.com/grid/fa09649961c5c38096ee815c1084b2f0.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 15863,
+    "sgdbName": "Dark Souls: Remastered"
+  },
+  "dave-the-diver": {
+    "url": "https://cdn2.steamgriddb.com/grid/1d50a96e0e3d7b721de8aafbb246067d.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5325005,
+    "sgdbName": "Dave the Diver"
+  },
+  "days-gone": {
+    "url": "https://cdn2.steamgriddb.com/grid/d60a556b10d7313b7e4026b4b9a19f32.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5255989,
+    "sgdbName": "Days Gone"
+  },
+  "dead-cells": {
+    "url": "https://cdn2.steamgriddb.com/grid/f6fa975361cfccc02b55c49305ff2bed.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 16621,
+    "sgdbName": "Dead Cells"
+  },
+  "dead-space": {
+    "url": "https://cdn2.steamgriddb.com/grid/ba49e8c45fef7070f22c11c10a45fa23.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5338378,
+    "sgdbName": "Dead Space"
+  },
+  "death-stranding-2-on-the-beach": {
+    "url": "https://cdn2.steamgriddb.com/grid/67f798cfaafbe1e92daca478934c1ee4.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5442930,
+    "sgdbName": "Death Stranding 2: On The Beach"
+  },
+  "death-stranding-directors-cut": {
+    "url": "https://cdn2.steamgriddb.com/grid/34042c360d640bc6a90e04a4a329c906.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5293743,
+    "sgdbName": "Death Stranding Director's Cut"
+  },
+  "deathloop": {
+    "url": "https://cdn2.steamgriddb.com/grid/1a8f0c640b227d83584d28833bed0e8f.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5263698,
+    "sgdbName": "DEATHLOOP"
+  },
+  "demons-souls": {
+    "url": "https://cdn2.steamgriddb.com/grid/7f260734198733fb642f90df1d2b580a.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5270663,
+    "sgdbName": "Demon's Souls"
+  },
+  "destiny-2": {
+    "url": "https://cdn2.steamgriddb.com/grid/5e93ee9a764cf2326a92f61f8fefdb1f.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5103051,
+    "sgdbName": "Destiny 2"
+  },
+  "devil-may-cry-5": {
+    "url": "https://cdn2.steamgriddb.com/grid/84bac0d19371a626d1ec02e402b1496c.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 349500,
+    "sgdbName": "Devil May Cry 5"
+  },
+  "diablo-iv": {
+    "url": "https://cdn2.steamgriddb.com/grid/71c46aef15c9997a5bd7e70b65a720dd.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5250133,
+    "sgdbName": "Diablo IV"
+  },
+  "disco-elysium-the-final-cut": {
+    "url": "https://cdn2.steamgriddb.com/grid/e17233dc1c4e3457d5a259c06c7eb502.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 18262,
+    "sgdbName": "Disco Elysium"
+  },
+  "divinity-original-sin-2": {
+    "url": "https://cdn2.steamgriddb.com/grid/0f530b1c3f33c6409f7e4f10ca8e3e96.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 10425,
+    "sgdbName": "Divinity: Original Sin 2"
+  },
+  "donkey-kong-bananza": {
+    "url": "https://cdn2.steamgriddb.com/grid/4e8f053b3087c9ecc66e2488b1551c72.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5483961,
+    "sgdbName": "Donkey Kong: Bananza"
+  },
+  "doom-2016": {
+    "url": "https://cdn2.steamgriddb.com/grid/e6b2e5d385c1503fbd55b97ba5dc4b77.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 8103,
+    "sgdbName": "Doom"
+  },
+  "doom-eternal": {
+    "url": "https://cdn2.steamgriddb.com/grid/35a53eba9befcf53a42be3f0b22a39c2.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5209479,
+    "sgdbName": "DOOM Eternal"
+  },
+  "doom-the-dark-ages": {
+    "url": "https://cdn2.steamgriddb.com/grid/8ea0329e385f393ba78cf71a82c031d9.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5454562,
+    "sgdbName": "DOOM: The Dark Ages"
+  },
+  "dota-2": {
+    "url": "https://cdn2.steamgriddb.com/grid/cd94516dfa071f5f8b6b4eb4e24271e6.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 15831,
+    "sgdbName": "Dota 2"
+  },
+  "dragon-age-the-veilguard": {
+    "url": "https://cdn2.steamgriddb.com/grid/3b54a98867984c72934f886da10677c2.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5438165,
+    "sgdbName": "Dragon Age: The Veilguard"
+  },
+  "dragon-quest-iii-hd-2d-remake": {
+    "url": "https://cdn2.steamgriddb.com/grid/1b612e5f7a9a50032a5efed7caa14eee.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5455454,
+    "sgdbName": "Dragon Quest III HD-2D Remake"
+  },
+  "dragon-quest-xi-s-echoes-of-an-elusive-age": {
+    "url": "https://cdn2.steamgriddb.com/grid/a44531997fab340499c42410656d1b5b.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5264231,
+    "sgdbName": "Dragon Quest XI S: Echoes of an Elusive Age – Definitive Edition"
+  },
+  "dragons-dogma-2": {
+    "url": "https://cdn2.steamgriddb.com/grid/8cab2185b82b866fbcda56d946276f98.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5406918,
+    "sgdbName": "Dragon's Dogma II"
+  },
+  "ea-sports-fc-25": {
+    "url": "https://cdn2.steamgriddb.com/grid/d5af34b7d30bbb2974666e95bedc3388.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5458628,
+    "sgdbName": "EA Sports FC 25"
+  },
+  "elden-ring": {
+    "url": "https://cdn2.steamgriddb.com/grid/a0abf0396a718b8982fce0b80181d8cb.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5277816,
+    "sgdbName": "Elden Ring"
+  },
+  "elden-ring-nightreign": {
+    "url": "https://cdn2.steamgriddb.com/grid/a3284b3b073bc55151be33829602250a.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5473447,
+    "sgdbName": "Elden Ring Nightreign"
+  },
+  "f1-25": {
+    "url": "https://cdn2.steamgriddb.com/grid/fb9d97ffedbaa16cae0906034a254afd.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5483224,
+    "sgdbName": "F1® 25"
+  },
+  "fallout-4": {
+    "url": "https://cdn2.steamgriddb.com/grid/2d92b989deeb771206e2f924073f81cd.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 7993,
+    "sgdbName": "Fallout 4"
+  },
+  "far-cry-6": {
+    "url": "https://cdn2.steamgriddb.com/grid/58f5943211aaec61b42950b53bb60527.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5263884,
+    "sgdbName": "Far Cry 6"
+  },
+  "final-fantasy-vii-rebirth": {
+    "url": "https://cdn2.steamgriddb.com/grid/89bbfab66bb2b829bebca5bab0be60ba.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5336387,
+    "sgdbName": "Final Fantasy VII Rebirth"
+  },
+  "final-fantasy-vii-remake-intergrade": {
+    "url": "https://cdn2.steamgriddb.com/grid/fb05fbe709c05ebb8e166293e4c91ec9.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5310669,
+    "sgdbName": "Final Fantasy VII Remake Intergrade"
+  },
+  "final-fantasy-xvi": {
+    "url": "https://cdn2.steamgriddb.com/grid/818efb7d312c7baa2a0af45c3c959837.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5267223,
+    "sgdbName": "Final Fantasy XVI"
+  },
+  "fire-emblem-three-houses": {
+    "url": "https://cdn2.steamgriddb.com/grid/849460026d42c840faab34d4d3b9fc33.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5246430,
+    "sgdbName": "Fire Emblem: Three Houses"
+  },
+  "fortnite": {
+    "url": "https://cdn2.steamgriddb.com/grid/6c4d541fc68d426aa028bc05f38164d1.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 36136,
+    "sgdbName": "Fortnite"
+  },
+  "forza-horizon-5": {
+    "url": "https://cdn2.steamgriddb.com/grid/6abd5c03e1414f4600add2d7956bb442.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5287648,
+    "sgdbName": "Forza Horizon 5"
+  },
+  "forza-motorsport": {
+    "url": "https://cdn2.steamgriddb.com/grid/48c33e07210117634ae2a7a1fda127a2.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5376138,
+    "sgdbName": "Forza Motorsport"
+  },
+  "gears-5": {
+    "url": "https://cdn2.steamgriddb.com/grid/170c24439fecca3c09ea7adc5344d829.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5173425,
+    "sgdbName": "Gears 5"
+  },
+  "genshin-impact": {
+    "url": "https://cdn2.steamgriddb.com/grid/17ac85cc7b94b7e29577acb5f9b38aa7.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5267777,
+    "sgdbName": "Genshin Impact"
+  },
+  "ghost-of-tsushima": {
+    "url": "https://cdn2.steamgriddb.com/grid/3e1a813196d7bfc007bedb02c7956842.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5261245,
+    "sgdbName": "Ghost of Tsushima"
+  },
+  "ghost-of-yotei": {
+    "url": "https://cdn2.steamgriddb.com/grid/f196b67043707b58786f3b1ad272aace.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5468696,
+    "sgdbName": "Ghost of Yōtei"
+  },
+  "ghostwire-tokyo": {
+    "url": "https://cdn2.steamgriddb.com/grid/23e074dd8c6693de55e923ccf961acb9.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5322723,
+    "sgdbName": "Ghostwire: Tokyo"
+  },
+  "god-of-war-2018": {
+    "url": "https://cdn2.steamgriddb.com/grid/5855660034a74cfe0e5fc8d57d17f4ac.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5254321,
+    "sgdbName": "God of War"
+  },
+  "god-of-war-ragnarok": {
+    "url": "https://cdn2.steamgriddb.com/grid/fd93fd1de50e084dd7d3b0b9f6950450.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5296432,
+    "sgdbName": "God of War Ragnarök"
+  },
+  "gran-turismo-7": {
+    "url": "https://cdn2.steamgriddb.com/grid/db0097b1e6998853db2e7411951f3d30.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5271712,
+    "sgdbName": "Gran Turismo 7"
+  },
+  "grand-theft-auto-v": {
+    "url": "https://cdn2.steamgriddb.com/grid/af0a25e27510f77d97634a6bbe653b13.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 3674,
+    "sgdbName": "Grand Theft Auto V"
+  },
+  "grounded": {
+    "url": "https://cdn2.steamgriddb.com/grid/249eed582680e076dabe47b06de266d8.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5256776,
+    "sgdbName": "Grounded"
+  },
+  "hades": {
+    "url": "https://cdn2.steamgriddb.com/grid/ce8a253393a1bbbb3d72cd2093b81ede.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 4997889,
+    "sgdbName": "Hades"
+  },
+  "hades-ii": {
+    "url": "https://cdn2.steamgriddb.com/grid/ac0169aeecebc5576074bb1dce51e382.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5376530,
+    "sgdbName": "Hades II"
+  },
+  "half-life-2": {
+    "url": "https://cdn2.steamgriddb.com/grid/1d386e4b61ac43b166394517562a0b17.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 2254,
+    "sgdbName": "Half-Life 2"
+  },
+  "halo-infinite": {
+    "url": "https://cdn2.steamgriddb.com/grid/5e6f4ecb84c2cef4254267d8479a3fb4.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5248474,
+    "sgdbName": "Halo Infinite"
+  },
+  "halo-the-master-chief-collection": {
+    "url": "https://cdn2.steamgriddb.com/grid/92aacd8c97fcb441b2db38659f8bbde0.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 825518,
+    "sgdbName": "Halo: The Master Chief Collection"
+  },
+  "hellblade-senuas-sacrifice": {
+    "url": "https://cdn2.steamgriddb.com/grid/e26c3e20ad7c46dbb43e2b08fdeb48bd.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 9603,
+    "sgdbName": "Hellblade: Senua's Sacrifice"
+  },
+  "helldivers-2": {
+    "url": "https://cdn2.steamgriddb.com/grid/88804947ad9f43ab446f7ed938060ef8.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5403655,
+    "sgdbName": "Helldivers II"
+  },
+  "hi-fi-rush": {
+    "url": "https://cdn2.steamgriddb.com/grid/e8b20831e12d84b24e99ce5fbed0d7e8.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5379762,
+    "sgdbName": "Hi-Fi RUSH"
+  },
+  "hitman-world-of-assassination": {
+    "url": "https://cdn2.steamgriddb.com/grid/197127ec04c2fb925eae46ff54a5b5c2.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5262141,
+    "sgdbName": "Hitman: World of Assassination"
+  },
+  "hogwarts-legacy": {
+    "url": "https://cdn2.steamgriddb.com/grid/f2c0c6ac43bd6f3dbe7b3f8e4df2ea4f.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5267354,
+    "sgdbName": "Hogwarts Legacy"
+  },
+  "hollow-knight": {
+    "url": "https://cdn2.steamgriddb.com/grid/d18c832e8c956b4ef8b92862e6bf470d.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 7545,
+    "sgdbName": "Hollow Knight"
+  },
+  "hollow-knight-silksong": {
+    "url": "https://cdn2.steamgriddb.com/grid/352b19056ce934568b956d68cbcde3b5.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 1043,
+    "sgdbName": "Hollow Knight: Silksong"
+  },
+  "honkai-star-rail": {
+    "url": "https://cdn2.steamgriddb.com/grid/14219e4acfc4c50d323a47c2a6994299.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5404409,
+    "sgdbName": "Honkai: Star Rail"
+  },
+  "horizon-forbidden-west": {
+    "url": "https://cdn2.steamgriddb.com/grid/812b270294c90349bf31d833982dd445.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5264941,
+    "sgdbName": "Horizon Forbidden West"
+  },
+  "horizon-zero-dawn-remastered": {
+    "url": "https://cdn2.steamgriddb.com/grid/f483046f00a16e0e6ff58e5eba3fa49c.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5466770,
+    "sgdbName": "Horizon Zero Dawn™ Remastered"
+  },
+  "indiana-jones-and-the-great-circle": {
+    "url": "https://cdn2.steamgriddb.com/grid/0e85248d5624de50ca8e01f1e9fdd5cb.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5441885,
+    "sgdbName": "Indiana Jones and the Great Circle"
+  },
+  "inside": {
+    "url": "https://cdn2.steamgriddb.com/grid/3240f70f7ea5d523e886a8327cd49ce9.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 4799,
+    "sgdbName": "INSIDE"
+  },
+  "it-takes-two": {
+    "url": "https://cdn2.steamgriddb.com/grid/84d8df6932e202152767f7579f32c613.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5273121,
+    "sgdbName": "It Takes Two"
+  },
+  "kena-bridge-of-spirits": {
+    "url": "https://cdn2.steamgriddb.com/grid/31bb08c6b213d4445affd805e46aeecc.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5267310,
+    "sgdbName": "Kena: Bridge of Spirits"
+  },
+  "kingdom-come-deliverance": {
+    "url": "https://cdn2.steamgriddb.com/grid/107e5674373e2e3e4b1a0fc42b7bb190.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 8093,
+    "sgdbName": "Kingdom Come: Deliverance"
+  },
+  "kingdom-come-deliverance-ii": {
+    "url": "https://cdn2.steamgriddb.com/grid/18362ffc46a1dcefed18c444adc4bfe9.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5449615,
+    "sgdbName": "Kingdom Come: Deliverance II"
+  },
+  "kingdom-hearts-iii": {
+    "url": "https://cdn2.steamgriddb.com/grid/b1fcb6f17d92c4076dec509a4e0f5405.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5254589,
+    "sgdbName": "Kingdom Hearts III"
+  },
+  "kirby-and-the-forgotten-land": {
+    "url": "https://cdn2.steamgriddb.com/grid/fd5b431d065e37e793b3d8219735f3be.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5297428,
+    "sgdbName": "Kirby and the Forgotten Land"
+  },
+  "league-of-legends": {
+    "url": "https://cdn2.steamgriddb.com/grid/cf29ee336b07c0572c810f62f5543525.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 1865,
+    "sgdbName": "League of Legends"
+  },
+  "lego-star-wars-the-skywalker-saga": {
+    "url": "https://cdn2.steamgriddb.com/grid/077badd2adc72d657dc5917564b0c028.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5260991,
+    "sgdbName": "LEGO Star Wars: The Skywalker Saga"
+  },
+  "lies-of-p": {
+    "url": "https://cdn2.steamgriddb.com/grid/48275392f5b7db75dbd692d35e92689c.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5285351,
+    "sgdbName": "Lies of P"
+  },
+  "like-a-dragon-infinite-wealth": {
+    "url": "https://cdn2.steamgriddb.com/grid/6657d468e3b5e7833c5c313f63f1864f.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5430778,
+    "sgdbName": "Like a Dragon: Infinite Wealth"
+  },
+  "little-nightmares-ii": {
+    "url": "https://cdn2.steamgriddb.com/grid/4d2554ec6ec43dfe2aadaf819101091c.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5266557,
+    "sgdbName": "Little Nightmares II"
+  },
+  "lords-of-the-fallen": {
+    "url": "https://cdn2.steamgriddb.com/grid/19cca09485ba2f1c1fb4ec41b5e48a0f.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5348344,
+    "sgdbName": "Lords of the Fallen"
+  },
+  "luigis-mansion-3": {
+    "url": "https://cdn2.steamgriddb.com/grid/f09a201b4e265d204352b00b8b174b15.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5250215,
+    "sgdbName": "Luigi's Mansion 3"
+  },
+  "mafia-the-old-country": {
+    "url": "https://cdn2.steamgriddb.com/grid/802bb5d12a44ebb63c0a48a5bf9ba380.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5462357,
+    "sgdbName": "Mafia: The Old Country"
+  },
+  "mario-kart-8-deluxe": {
+    "url": "https://cdn2.steamgriddb.com/grid/9cd6d894098e748716960bfcf9dbe115.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5249545,
+    "sgdbName": "Mario Kart 8 Deluxe"
+  },
+  "mario-kart-world": {
+    "url": "https://cdn2.steamgriddb.com/grid/c2526ac91cf2dba8f8b1b58935c7597c.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5483943,
+    "sgdbName": "Mario Kart World"
+  },
+  "mario-rabbids-sparks-of-hope": {
+    "url": "https://cdn2.steamgriddb.com/grid/6036eb2dd22a5b80e5ba2bf6b9b949d6.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5303118,
+    "sgdbName": "Mario + Rabbids Sparks of Hope"
+  },
+  "marvel-rivals": {
+    "url": "https://cdn2.steamgriddb.com/grid/72a46ee6c3f5308603f41deb7ba5e35c.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5447951,
+    "sgdbName": "Marvel Rivals"
+  },
+  "marvels-spider-man": {
+    "url": "https://cdn2.steamgriddb.com/grid/1bc38477bc1f540837e39eb0b8dbb520.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5258558,
+    "sgdbName": "Marvel's Spider-Man"
+  },
+  "marvels-spider-man-2": {
+    "url": "https://cdn2.steamgriddb.com/grid/2572510b22e85f491270becf2fc166f7.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5295908,
+    "sgdbName": "Marvel's Spider-Man 2"
+  },
+  "marvels-spider-man-miles-morales": {
+    "url": "https://cdn2.steamgriddb.com/grid/59c4be412494201dbe6121b901f1e446.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5354206,
+    "sgdbName": "Marvel's Spider-Man: Miles Morales"
+  },
+  "mass-effect-legendary-edition": {
+    "url": "https://cdn2.steamgriddb.com/grid/55b3c4bf9d61fa54ba5ebcbe37bafe89.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5276616,
+    "sgdbName": "Mass Effect: Legendary Edition"
+  },
+  "metal-gear-solid-delta-snake-eater": {
+    "url": "https://cdn2.steamgriddb.com/grid/25d91ad7104565c52ceb2f4931e1ab41.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5404533,
+    "sgdbName": "Metal Gear Solid Delta: Snake Eater"
+  },
+  "metal-gear-solid-v-the-phantom-pain": {
+    "url": "https://cdn2.steamgriddb.com/grid/727d89c97ccaa39b9f2b848bdce6aca5.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 4106,
+    "sgdbName": "Metal Gear Solid V: The Phantom Pain"
+  },
+  "metaphor-refantazio": {
+    "url": "https://cdn2.steamgriddb.com/grid/7febb9395de45df61740c518ea279af7.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5439691,
+    "sgdbName": "Metaphor: ReFantazio"
+  },
+  "metro-exodus-enhanced-edition": {
+    "url": "https://cdn2.steamgriddb.com/grid/e753eef5e5d05dd9808f8e70498c92d4.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5275427,
+    "sgdbName": "Metro Exodus: Enhanced Edition"
+  },
+  "metroid-dread": {
+    "url": "https://cdn2.steamgriddb.com/grid/63c07e376dcf5799fc02381033f7c121.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5257930,
+    "sgdbName": "Metroid Dread"
+  },
+  "metroid-prime-4-beyond": {
+    "url": "https://cdn2.steamgriddb.com/grid/a59a415362cdf470a098d7ee3dfc46bc.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5374202,
+    "sgdbName": "Metroid Prime 4: Beyond"
+  },
+  "microsoft-flight-simulator-2024": {
+    "url": "https://cdn2.steamgriddb.com/grid/14f47a55890bf9a0d09c7778f8880300.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5444028,
+    "sgdbName": "Microsoft Flight Simulator 2024"
+  },
+  "middle-earth-shadow-of-war": {
+    "url": "https://cdn2.steamgriddb.com/grid/4223803051a741f27b9dd069a138bfd0.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 6995,
+    "sgdbName": "Middle-earth: Shadow of War"
+  },
+  "minecraft": {
+    "url": "https://cdn2.steamgriddb.com/grid/a73027901f88055aaa0fd1a9e25d36c7.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 38365,
+    "sgdbName": "Minecraft"
+  },
+  "monster-hunter-rise": {
+    "url": "https://cdn2.steamgriddb.com/grid/8bf8fcf5c5ca2ee3d0e9cffc84b9ef1f.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5267265,
+    "sgdbName": "Monster Hunter Rise"
+  },
+  "monster-hunter-wilds": {
+    "url": "https://cdn2.steamgriddb.com/grid/022f1a0bb8523a8e0d9d8afa86dffc2d.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5438489,
+    "sgdbName": "Monster Hunter Wilds"
+  },
+  "monster-hunter-world": {
+    "url": "https://cdn2.steamgriddb.com/grid/4b3dd8900b9635955aeefd0d8e5e3da5.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 16347,
+    "sgdbName": "Monster Hunter: World"
+  },
+  "mortal-kombat-1": {
+    "url": "https://cdn2.steamgriddb.com/grid/1ca03569d36f6dba22a6e791da327083.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5402478,
+    "sgdbName": "Mortal Kombat 1"
+  },
+  "nba-2k25": {
+    "url": "https://cdn2.steamgriddb.com/grid/635aa5a4e9c094eaca1e598c0e970577.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5457855,
+    "sgdbName": "NBA 2K25"
+  },
+  "need-for-speed-unbound": {
+    "url": "https://cdn2.steamgriddb.com/grid/8777af7a31c351b56fe6748d1c9cae62.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5356756,
+    "sgdbName": "Need for Speed: Unbound"
+  },
+  "nier-automata": {
+    "url": "https://cdn2.steamgriddb.com/grid/6dc08e2dd57f32063fd0834694003042.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 13971,
+    "sgdbName": "NieR: Automata"
+  },
+  "ninja-gaiden-2-black": {
+    "url": "https://cdn2.steamgriddb.com/grid/3fb4e3e3ca9ea34fbb7b5a4625c2779c.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5476930,
+    "sgdbName": "NINJA GAIDEN 2 Black"
+  },
+  "nioh-2": {
+    "url": "https://cdn2.steamgriddb.com/grid/50502027c1db52caa91b31b7a7349c1a.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5271063,
+    "sgdbName": "Nioh 2: The Complete Edition"
+  },
+  "no-mans-sky": {
+    "url": "https://cdn2.steamgriddb.com/grid/c8d77146931324f4001237a93fe4ba8c.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 3779,
+    "sgdbName": "No Man's Sky"
+  },
+  "octopath-traveler-ii": {
+    "url": "https://cdn2.steamgriddb.com/grid/9faa9aa28cb471c7207d3087c28176b3.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5352228,
+    "sgdbName": "Octopath Traveler II"
+  },
+  "ori-and-the-blind-forest": {
+    "url": "https://cdn2.steamgriddb.com/grid/d4aa28edb4a7e60bf8a800ef24c26eb3.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 3360,
+    "sgdbName": "Ori and the Blind Forest"
+  },
+  "ori-and-the-will-of-the-wisps": {
+    "url": "https://cdn2.steamgriddb.com/grid/7cd613b5798d0c540ba064c5f7ecc386.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5253486,
+    "sgdbName": "Ori and the Will of the Wisps"
+  },
+  "outer-wilds": {
+    "url": "https://cdn2.steamgriddb.com/grid/eb14cccbec050d8e6b6d21116d5a3dd9.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 23535,
+    "sgdbName": "Outer Wilds"
+  },
+  "overwatch-2": {
+    "url": "https://cdn2.steamgriddb.com/grid/f8013fd6d898ca4374d8113f0939c70c.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5253388,
+    "sgdbName": "Overwatch 2"
+  },
+  "palworld": {
+    "url": "https://cdn2.steamgriddb.com/grid/d0c2b1e87b18968832aec662ff2889dd.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5286879,
+    "sgdbName": "Palworld"
+  },
+  "path-of-exile-2": {
+    "url": "https://cdn2.steamgriddb.com/grid/579b8ed826a6b614ac5654924627477d.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5437810,
+    "sgdbName": "Path of Exile 2"
+  },
+  "pathfinder-wrath-of-the-righteous": {
+    "url": "https://cdn2.steamgriddb.com/grid/2562fc77b05e7290c59a42a5ba1f3e22.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5276624,
+    "sgdbName": "Pathfinder: Wrath of the Righteous"
+  },
+  "pentiment": {
+    "url": "https://cdn2.steamgriddb.com/grid/469d44d076e5b6b7c37ad6812e8f4bd4.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5335229,
+    "sgdbName": "Pentiment"
+  },
+  "persona-3-reload": {
+    "url": "https://cdn2.steamgriddb.com/grid/6e6fcb3980052fbf653c305e9ff87b37.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5423841,
+    "sgdbName": "Persona 3 Reload"
+  },
+  "persona-5-royal": {
+    "url": "https://cdn2.steamgriddb.com/grid/78b22a52a1e53b0d2e27e6b40569793a.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5352446,
+    "sgdbName": "Persona 5 Royal"
+  },
+  "pikmin-4": {
+    "url": "https://cdn2.steamgriddb.com/grid/13e5ef861cca81972b5e285237a67f86.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5352185,
+    "sgdbName": "Pikmin 4"
+  },
+  "pokemon-legends-z-a": {
+    "url": "https://cdn2.steamgriddb.com/grid/e0a5caef34b7535c913610b035a2c9ab.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5445395,
+    "sgdbName": "Pokémon Legends: Z-A"
+  },
+  "pokemon-scarlet-and-violet": {
+    "url": "https://cdn2.steamgriddb.com/grid/181426fbde5526374ea654b59c16577e.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5331702,
+    "sgdbName": "Pokémon Scarlet"
+  },
+  "portal-2": {
+    "url": "https://cdn2.steamgriddb.com/grid/7668636048c4fbe8df8ffb388679e933.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 17830,
+    "sgdbName": "Portal 2"
+  },
+  "prince-of-persia-the-lost-crown": {
+    "url": "https://cdn2.steamgriddb.com/grid/8dd416ae211439aa0860ce5e9579627b.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5439836,
+    "sgdbName": "Prince of Persia: The Lost Crown"
+  },
+  "psychonauts-2": {
+    "url": "https://cdn2.steamgriddb.com/grid/68e065a0cb554618661c6272c0344eed.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5153400,
+    "sgdbName": "Psychonauts 2"
+  },
+  "ratchet-and-clank-rift-apart": {
+    "url": "https://cdn2.steamgriddb.com/grid/543af1392892ff0c1e2060cef360a733.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5266059,
+    "sgdbName": "Ratchet & Clank: Rift Apart"
+  },
+  "red-dead-redemption-2": {
+    "url": "https://cdn2.steamgriddb.com/grid/a5bff26f8f2adb1ec19661b4c4bc9f86.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5249031,
+    "sgdbName": "Red Dead Redemption II"
+  },
+  "remnant-ii": {
+    "url": "https://cdn2.steamgriddb.com/grid/d1f0d59aa5eb5d4001c3dee59fc8820e.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5370123,
+    "sgdbName": "Remnant II"
+  },
+  "resident-evil-2": {
+    "url": "https://cdn2.steamgriddb.com/grid/fb5b3b5d234aa718062e3b4f6c826e23.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 29143,
+    "sgdbName": "Resident Evil 2"
+  },
+  "resident-evil-3": {
+    "url": "https://cdn2.steamgriddb.com/grid/5aa174ab24983ca1b5c461d99685a407.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5253703,
+    "sgdbName": "Resident Evil 3"
+  },
+  "resident-evil-4": {
+    "url": "https://cdn2.steamgriddb.com/grid/fa8469112345cdf93cd402092eb73d5d.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5332120,
+    "sgdbName": "Resident Evil 4"
+  },
+  "resident-evil-7-biohazard": {
+    "url": "https://cdn2.steamgriddb.com/grid/1bd92fc1a8d57db76db351e77904387e.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 9774,
+    "sgdbName": "Resident Evil 7: Biohazard"
+  },
+  "resident-evil-village": {
+    "url": "https://cdn2.steamgriddb.com/grid/eaf686eb29341fa99d452a595f35714d.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5262085,
+    "sgdbName": "Resident Evil Village"
+  },
+  "returnal": {
+    "url": "https://cdn2.steamgriddb.com/grid/d2ee1af2ad7267720b07d301b0e3c9c2.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5274173,
+    "sgdbName": "Returnal"
+  },
+  "rise-of-the-ronin": {
+    "url": "https://cdn2.steamgriddb.com/grid/236b00486db86ef9118255e0e58f272e.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5445318,
+    "sgdbName": "Rise of the Rōnin"
+  },
+  "rocket-league": {
+    "url": "https://cdn2.steamgriddb.com/grid/e4e4005042cf598805d581754fe9256f.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 3113,
+    "sgdbName": "Rocket League"
+  },
+  "satisfactory": {
+    "url": "https://cdn2.steamgriddb.com/grid/960022abd82d76dab840c7943826fd3a.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 14065,
+    "sgdbName": "Satisfactory"
+  },
+  "sea-of-stars": {
+    "url": "https://cdn2.steamgriddb.com/grid/5f1cf142579e3c1fb7cf94cb7290dcff.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5257712,
+    "sgdbName": "Sea of Stars"
+  },
+  "sea-of-thieves": {
+    "url": "https://cdn2.steamgriddb.com/grid/fc28dd210d52ecb0135730aa1d151b1b.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5248310,
+    "sgdbName": "Sea of Thieves"
+  },
+  "sekiro-shadows-die-twice": {
+    "url": "https://cdn2.steamgriddb.com/grid/97771715c7dd7daf009feeb60c49915a.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 26258,
+    "sgdbName": "Sekiro: Shadows Die Twice"
+  },
+  "senuas-saga-hellblade-ii": {
+    "url": "https://cdn2.steamgriddb.com/grid/1db0fc2f95ccc900cb6d4fe1f96ab133.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5285360,
+    "sgdbName": "Senua's Saga: Hellblade II"
+  },
+  "sid-meiers-civilization-vi": {
+    "url": "https://cdn2.steamgriddb.com/grid/7ce9d67d85410c4531d26ee12e9640d2.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 4150,
+    "sgdbName": "Sid Meier's Civilization VI"
+  },
+  "sid-meiers-civilization-vii": {
+    "url": "https://cdn2.steamgriddb.com/grid/76680c4c0b3e66c4cd885e7735d2776b.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5454366,
+    "sgdbName": "Sid Meier's Civilization® VII"
+  },
+  "sifu": {
+    "url": "https://cdn2.steamgriddb.com/grid/e24ff8d0d57d1bf2b1315673b2b896c1.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5312259,
+    "sgdbName": "Sifu"
+  },
+  "silent-hill-2": {
+    "url": "https://cdn2.steamgriddb.com/grid/52a80b6dd6020c7aeb9f3011948941c8.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5359291,
+    "sgdbName": "Silent Hill 2"
+  },
+  "sonic-frontiers": {
+    "url": "https://cdn2.steamgriddb.com/grid/11717a273843d76de56028570fe0d618.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5309245,
+    "sgdbName": "Sonic Frontiers"
+  },
+  "south-of-midnight": {
+    "url": "https://cdn2.steamgriddb.com/grid/918017ae6e843fd0fecaa34640aa7156.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5407516,
+    "sgdbName": "South of Midnight"
+  },
+  "splatoon-3": {
+    "url": "https://cdn2.steamgriddb.com/grid/9c646d25b279cfc24e329ae87ec8c2e7.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5277939,
+    "sgdbName": "Splatoon 3"
+  },
+  "split-fiction": {
+    "url": "https://cdn2.steamgriddb.com/grid/ab0a754f102512c25cd0004830ff133c.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5473464,
+    "sgdbName": "Split Fiction"
+  },
+  "stalker-2-heart-of-chornobyl": {
+    "url": "https://cdn2.steamgriddb.com/grid/75c29ee64502c26c89759ae727e5ca1a.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5270202,
+    "sgdbName": "S.T.A.L.K.E.R. 2: Heart of Chornobyl"
+  },
+  "star-wars-jedi-fallen-order": {
+    "url": "https://cdn2.steamgriddb.com/grid/669aee218851553304392c2497857c4d.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5138394,
+    "sgdbName": "Star Wars Jedi: Fallen Order"
+  },
+  "star-wars-jedi-survivor": {
+    "url": "https://cdn2.steamgriddb.com/grid/08c38940fb115f00f5d0dac46e4ac639.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5330917,
+    "sgdbName": "Star Wars Jedi: Survivor"
+  },
+  "star-wars-outlaws": {
+    "url": "https://cdn2.steamgriddb.com/grid/3997668eb69d05df1319e04539a5f476.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5442017,
+    "sgdbName": "Star Wars Outlaws"
+  },
+  "stardew-valley": {
+    "url": "https://cdn2.steamgriddb.com/grid/cf30b40a1573a32248fcd0ba94e67652.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 9569,
+    "sgdbName": "Stardew Valley"
+  },
+  "starfield": {
+    "url": "https://cdn2.steamgriddb.com/grid/a5da7635c3838897d47e0f4e30e7c556.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5285219,
+    "sgdbName": "Starfield"
+  },
+  "stellar-blade": {
+    "url": "https://cdn2.steamgriddb.com/grid/f22df27d9bd4489d4f54c852bbdb21fa.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5443884,
+    "sgdbName": "Stellar Blade"
+  },
+  "street-fighter-6": {
+    "url": "https://cdn2.steamgriddb.com/grid/71283182d40a769d03f42cab99f8fc1e.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5352662,
+    "sgdbName": "Street Fighter 6"
+  },
+  "super-mario-bros-wonder": {
+    "url": "https://cdn2.steamgriddb.com/grid/66da3b21fe18692332284c64e08b8e02.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5409928,
+    "sgdbName": "Super Mario Bros. Wonder"
+  },
+  "super-mario-odyssey": {
+    "url": "https://cdn2.steamgriddb.com/grid/505870c8848f2d550944bf64008c9472.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5245268,
+    "sgdbName": "Super Mario Odyssey"
+  },
+  "super-smash-bros-ultimate": {
+    "url": "https://cdn2.steamgriddb.com/grid/2ef85f2ae5e56041ded26f67e18136be.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5245293,
+    "sgdbName": "Super Smash Bros. Ultimate"
+  },
+  "tekken-8": {
+    "url": "https://cdn2.steamgriddb.com/grid/a9283100ad06971a29f5382f6ab25ea4.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5360955,
+    "sgdbName": "Tekken 8"
+  },
+  "terraria": {
+    "url": "https://cdn2.steamgriddb.com/grid/9ef7f9b81c2532880cfe5cf53f0c906d.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 1226,
+    "sgdbName": "Terraria"
+  },
+  "tetris-effect-connected": {
+    "url": "https://cdn2.steamgriddb.com/grid/3892ce5ef89bb3a59b68da3f4587ea08.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5271091,
+    "sgdbName": "Tetris Effect: Connected"
+  },
+  "the-elder-scrolls-iv-oblivion-remastered": {
+    "url": "https://cdn2.steamgriddb.com/grid/58cb7cce31a29f34ba4d5972d5a3da35.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5486082,
+    "sgdbName": "The Elder Scrolls IV: Oblivion Remastered"
+  },
+  "the-elder-scrolls-v-skyrim-special-edition": {
+    "url": "https://cdn2.steamgriddb.com/grid/17703b87394a1de22d7f2e8309443960.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 12404,
+    "sgdbName": "The Elder Scrolls V: Skyrim - Special Edition"
+  },
+  "the-last-of-us-part-i": {
+    "url": "https://cdn2.steamgriddb.com/grid/769fda94fbd3dd567d4cf6e296226fc8.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5335165,
+    "sgdbName": "The Last of Us Part I"
+  },
+  "the-last-of-us-part-ii-remastered": {
+    "url": "https://cdn2.steamgriddb.com/grid/f3949fa34208fe26a430aed32434ebc8.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5436765,
+    "sgdbName": "The Last of Us Part II Remastered"
+  },
+  "the-legend-of-zelda-breath-of-the-wild": {
+    "url": "https://cdn2.steamgriddb.com/grid/121b81f7d167ca2c24fdab4f044048f8.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 35744,
+    "sgdbName": "The Legend of Zelda: Breath of the Wild"
+  },
+  "the-legend-of-zelda-echoes-of-wisdom": {
+    "url": "https://cdn2.steamgriddb.com/grid/e488d6f4064e1584c115f2cd7bed74f0.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5455462,
+    "sgdbName": "The Legend of Zelda: Echoes of Wisdom"
+  },
+  "the-outer-worlds": {
+    "url": "https://cdn2.steamgriddb.com/grid/73aeafa9e9af56df516519029bb904af.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 16216,
+    "sgdbName": "The Outer Worlds"
+  },
+  "the-outer-worlds-2": {
+    "url": "https://cdn2.steamgriddb.com/grid/8831080c91dd4aac058dbc02296bc42e.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5438697,
+    "sgdbName": "The Outer Worlds 2"
+  },
+  "the-witcher-3": {
+    "url": "https://cdn2.steamgriddb.com/grid/4904f82c12cecf6ec070fe77d7e913ce.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 4265,
+    "sgdbName": "The Witcher 3: Wild Hunt"
+  },
+  "titanfall-2": {
+    "url": "https://cdn2.steamgriddb.com/grid/77830f686ff945a183bf945451139a54.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 37043,
+    "sgdbName": "Titanfall 2"
+  },
+  "tom-clancys-rainbow-six-siege": {
+    "url": "https://cdn2.steamgriddb.com/grid/c32d0e02132a853fdf5b8010aa71602e.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 7154,
+    "sgdbName": "Tom Clancy's Rainbow Six Siege"
+  },
+  "tony-hawks-pro-skater-1-2": {
+    "url": "https://cdn2.steamgriddb.com/grid/6f39cf2c11945e47f55e60fa895d5626.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5260463,
+    "sgdbName": "Tony Hawk's Pro Skater 1 + 2"
+  },
+  "total-war-warhammer-iii": {
+    "url": "https://cdn2.steamgriddb.com/grid/9c1c0c97e0eda929776a33cb6a99151f.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5276977,
+    "sgdbName": "Total War: Warhammer III"
+  },
+  "tunic": {
+    "url": "https://cdn2.steamgriddb.com/grid/2daf9584863b39e00f7362dc69aeb4e1.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 15151,
+    "sgdbName": "Tunic"
+  },
+  "uncharted-legacy-of-thieves-collection": {
+    "url": "https://cdn2.steamgriddb.com/grid/eae7437c8206a4f30a3c676e49cb9037.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5307973,
+    "sgdbName": "Uncharted: Legacy of Thieves Collection"
+  },
+  "valheim": {
+    "url": "https://cdn2.steamgriddb.com/grid/15bae9fa92cfa7982d794811b05162c9.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 29531,
+    "sgdbName": "Valheim"
+  },
+  "valorant": {
+    "url": "https://cdn2.steamgriddb.com/grid/b46469c5851be7facec604ceeef9aaaf.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5258249,
+    "sgdbName": "Valorant"
+  },
+  "vampire-survivors": {
+    "url": "https://cdn2.steamgriddb.com/grid/b6c580b0ed08cf19c925be5a68475cd4.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5306805,
+    "sgdbName": "Vampire Survivors"
+  },
+  "warframe": {
+    "url": "https://cdn2.steamgriddb.com/grid/4e2a3c5332c92654090b105e3723479f.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 2506,
+    "sgdbName": "Warframe"
+  },
+  "watch-dogs-legion": {
+    "url": "https://cdn2.steamgriddb.com/grid/69e88cc7a3714f0027e87fcf3bc46813.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5173857,
+    "sgdbName": "Watch Dogs: Legion"
+  },
+  "wo-long-fallen-dynasty": {
+    "url": "https://cdn2.steamgriddb.com/grid/77f2de998d291ded2573171c666b5565.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5335618,
+    "sgdbName": "Wo Long: Fallen Dynasty"
+  },
+  "wolfenstein-ii-the-new-colossus": {
+    "url": "https://cdn2.steamgriddb.com/grid/fab68d941875c19041a374166a67a8eb.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 17557,
+    "sgdbName": "Wolfenstein II: The New Colossus"
+  },
+  "xcom-2": {
+    "url": "https://cdn2.steamgriddb.com/grid/4ef7777b93b5ab78ecda776e9b28f158.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 3570,
+    "sgdbName": "XCOM 2"
+  },
+  "xenoblade-chronicles-3": {
+    "url": "https://cdn2.steamgriddb.com/grid/6e59393a83a67afaa68e09dd68aa4cea.jpg",
+    "source": "steamgriddb",
+    "sgdbGameId": 5319975,
+    "sgdbName": "Xenoblade Chronicles 3"
+  },
+  "yakuza-0": {
+    "url": "https://cdn2.steamgriddb.com/grid/03435e70b2d275b16191f12f3b41df2f.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 18449,
+    "sgdbName": "Yakuza 0"
+  },
+  "zelda-tears-of-the-kingdom": {
+    "url": "https://cdn2.steamgriddb.com/grid/ae758fbcbd5bd841516c53b3c08ebc6f.png",
+    "source": "steamgriddb",
+    "sgdbGameId": 5303117,
+    "sgdbName": "The Legend of Zelda: Tears of the Kingdom"
+  }
+}

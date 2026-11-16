@@ -8,6 +8,9 @@ import { overallScore } from "@/lib/analysis";
 import { families, modeLabels, platforms } from "@/lib/platforms";
 import { Counter, EmptyState, GameCover, Pill, Reveal, Stat } from "@/components/ui";
 import { formatDate, fmtFps } from "@/lib/utils";
+import Image from "next/image";
+import { Credit } from "@/components/media";
+import { platformImage } from "@/lib/data/media";
 
 export function generateStaticParams() {
   return platforms.map((p) => ({ slug: p.slug }));
@@ -46,12 +49,14 @@ async function PlatformPageBody({ params }: { params: PageProps<"/platforms/[slu
   const sixty = ranked.filter((t) => t.fpsAvg >= 58.5).length;
   const avgRes = tests.length ? tests.reduce((s, t) => s + t.nativePixels, 0) / tests.length : 0;
   const siblings = platforms.filter((x) => x.family === p.family && x.id !== p.id);
+  const photo = platformImage(p.slug);
 
   return (
     <div>
       <section className="relative -mt-[68px] overflow-hidden pb-16 pt-[130px]">
         <div className="absolute inset-0" style={{ background: `linear-gradient(180deg, ${fam.tint}, transparent 85%), radial-gradient(70% 90% at 85% 0%, ${fam.gradient[1]}33, transparent 60%)` }} />
-        <div className="relative mx-auto max-w-7xl px-6">
+        <div className="relative mx-auto grid max-w-7xl gap-10 px-6 lg:grid-cols-[1fr_minmax(0,440px)] lg:items-center">
+          <div>
           <nav aria-label="Breadcrumb" className="text-[13px] text-muted"><Link href="/platforms" className="hover:text-ink">Platforms</Link> / {fam.name}</nav>
           <div className="mt-4 flex flex-wrap items-center gap-3">
             <span className="h-3 w-3 rounded-full" style={{ background: fam.primary }} />
@@ -70,6 +75,15 @@ async function PlatformPageBody({ params }: { params: PageProps<"/platforms/[slu
             <div><Counter value={sixty} className="font-display text-3xl font-semibold" /><p className="text-[12.5px] text-muted">games at 60 fps+</p></div>
             <div><Counter value={avgRes} suffix="p" className="font-display text-3xl font-semibold" /><p className="text-[12.5px] text-muted">avg internal res</p></div>
           </div>
+          </div>
+          {photo && (
+            <figure>
+              <div className="relative aspect-[4/3] overflow-hidden rounded-[28px] shadow-lift ring-1 ring-black/5" style={{ background: `linear-gradient(135deg, ${fam.gradient[0]}, ${fam.gradient[1]})` }}>
+                <Image src={photo.url} alt={`${p.name} hardware`} fill sizes="(max-width: 1024px) 100vw, 440px" className="object-cover" preload />
+              </div>
+              <figcaption className="mt-2 px-1"><Credit image={photo} /></figcaption>
+            </figure>
+          )}
         </div>
       </section>
 

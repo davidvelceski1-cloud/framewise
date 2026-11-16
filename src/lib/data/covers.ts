@@ -10,6 +10,10 @@ export interface CoverEntry {
   url?: string; // explicit URL or local /covers/… path
   igdbId?: number;
   igdbName?: string;
+  /** set by `npm run covers:sgdb` (SteamGridDB); `url` then points at cdn2.steamgriddb.com */
+  source?: "igdb" | "steamgriddb";
+  sgdbGameId?: number;
+  sgdbName?: string;
   manual?: boolean;
 }
 
@@ -26,3 +30,12 @@ export function coverUrlFor(slug: string): string | undefined {
 }
 
 export const coverCount = () => Object.values(map).filter((e) => e.url || e.imageId).length;
+
+/** Which sources supplied the synced covers, for the footer credit. */
+export const coverSources = () => {
+  const entries = Object.values(map);
+  return {
+    igdb: entries.some((e) => e.imageId),
+    steamgriddb: entries.some((e) => e.source === "steamgriddb" || Boolean(e.url?.includes("steamgriddb.com"))),
+  };
+};

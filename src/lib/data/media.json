@@ -1,0 +1,2188 @@
+{
+  "platforms": {
+    "pc-high": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Video_%C3%BCber_die_RTX_4080_Super_und_Vergleichskarten_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_05.png/1280px-Video_%C3%BCber_die_RTX_4080_Super_und_Vergleichskarten_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_05.png",
+      "width": 1000,
+      "height": 563,
+      "credit": "极客湾Geekerwan · CC BY 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Video_%C3%BCber_die_RTX_4080_Super_und_Vergleichskarten_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_05.png",
+      "caption": "GeForce RTX 4080 Super Founders Edition (centre), with the RTX 4090 and RTX 4080"
+    },
+    "pc-mid": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Video_%C3%BCber_die_GeForce_RTX_4060_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_05.png/1280px-Video_%C3%BCber_die_GeForce_RTX_4060_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_05.png",
+      "width": 1000,
+      "height": 563,
+      "credit": "极客湾Geekerwan · CC BY 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Video_%C3%BCber_die_GeForce_RTX_4060_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_05.png",
+      "caption": "GeForce RTX 4060 (dual-fan partner card)"
+    },
+    "ps5": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/PlayStation_5_and_DualSense_with_transparent_background.png/1280px-PlayStation_5_and_DualSense_with_transparent_background.png",
+      "width": 1000,
+      "height": 1333,
+      "credit": "Soberian (this retouched file) Osh33m (original photograph) · CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:PlayStation_5_and_DualSense_with_transparent_background.png"
+    },
+    "ps5-pro": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/PlayStation_5_Pro_no_disc_drive.jpg/1280px-PlayStation_5_Pro_no_disc_drive.jpg",
+      "width": 1000,
+      "height": 1406,
+      "credit": "BeatEmUps · CC BY 3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:PlayStation_5_Pro_no_disc_drive.jpg"
+    },
+    "steam-deck": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Steam_Deck_%28front%29.png",
+      "width": 1000,
+      "height": 371,
+      "credit": "Liam Dawe/GamingOnLinux, PNG version by VulcanSphere · CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Steam_Deck_(front).png"
+    },
+    "switch": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Nintendo-Switch-Console-Docked-wJoyConRB.jpg/1280px-Nintendo-Switch-Console-Docked-wJoyConRB.jpg",
+      "width": 1000,
+      "height": 571,
+      "credit": "Evan-Amos · Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Nintendo-Switch-Console-Docked-wJoyConRB.jpg"
+    },
+    "switch-2": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Nintendo_Switch_2_in_Docking_Console.jpg/1280px-Nintendo_Switch_2_in_Docking_Console.jpg",
+      "width": 1000,
+      "height": 536,
+      "credit": "Crisco 1492 · CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Nintendo_Switch_2_in_Docking_Console.jpg"
+    },
+    "xbox-series-s": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Xbox_Series_S_with_controller.jpg/1280px-Xbox_Series_S_with_controller.jpg",
+      "width": 1000,
+      "height": 1000,
+      "credit": "AsmodeanUnderscore · CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Xbox_Series_S_with_controller.jpg"
+    },
+    "xbox-series-x": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Xbox_Series_X_2.jpg/1280px-Xbox_Series_X_2.jpg",
+      "width": 1000,
+      "height": 1173,
+      "credit": "Der. Bellemer · CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Xbox_Series_X_2.jpg"
+    }
+  },
+  "studios": {
+    "2k": {
+      "wikidata": "Q94937",
+      "wikipedia": "https://en.wikipedia.org/wiki/2K_(company)",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/2K_2021_Logo.svg/330px-2K_2021_Logo.svg.png",
+        "width": 320,
+        "height": 319,
+        "credit": "Take-Two Interactive · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:2K_2021_Logo.svg"
+      },
+      "leader": {
+        "name": "David Ismailer",
+        "role": "President",
+        "source": "wikipedia"
+      }
+    },
+    "343-industries": {
+      "wikidata": "Q24228",
+      "wikipedia": "https://en.wikipedia.org/wiki/Halo_Studios",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Halo_Studios_Logo.svg/330px-Halo_Studios_Logo.svg.png",
+        "width": 320,
+        "height": 120,
+        "credit": "Halo Studios · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Halo_Studios_Logo.svg"
+      },
+      "leader": {
+        "name": "Pierre Hintze",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "4a-games": {
+      "wikidata": "Q2077224",
+      "wikipedia": "https://en.wikipedia.org/wiki/4A_Games",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/4A_Games_logo.svg/330px-4A_Games_logo.svg.png",
+        "width": 320,
+        "height": 320,
+        "credit": "4A Games · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:4A_Games_logo.svg"
+      },
+      "leader": {
+        "name": "Dean Sharpe",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "505-games": {
+      "wikidata": "Q2068658",
+      "wikipedia": "https://en.wikipedia.org/wiki/505_Games",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/505_Games_logo.svg/330px-505_Games_logo.svg.png",
+        "width": 320,
+        "height": 106,
+        "credit": "505 Games · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:505_Games_logo.svg"
+      }
+    },
+    "acquire": {
+      "wikidata": "Q481968",
+      "wikipedia": "https://en.wikipedia.org/wiki/Acquire_(company)",
+      "logo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Acquire_%28company%29_logo.png",
+        "width": 320,
+        "height": 316,
+        "credit": "Acquire · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Acquire_(company)_logo.png"
+      },
+      "leader": {
+        "name": "Takuma Endo",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "activision": {
+      "wikidata": "Q200491",
+      "wikipedia": "https://en.wikipedia.org/wiki/Activision",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Activision.svg/330px-Activision.svg.png",
+        "width": 320,
+        "height": 80,
+        "credit": "The original uploader was Caesura at English Wikipedia . - Landor Associates · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Activision.svg"
+      },
+      "leader": {
+        "name": "Rob Kostich",
+        "role": "President",
+        "source": "wikipedia"
+      }
+    },
+    "andrew-shouldice": {
+      "wikidata": "Q117327718",
+      "person": {
+        "name": "Andrew Shouldice",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Andrew_Shouldice_GDC2023.03.24_-_Crop.jpg/330px-Andrew_Shouldice_GDC2023.03.24_-_Crop.jpg",
+          "width": 320,
+          "height": 413,
+          "credit": "Official GDC · CC BY 2.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Andrew_Shouldice_GDC2023.03.24_-_Crop.jpg"
+        }
+      }
+    },
+    "annapurna-interactive": {
+      "wikidata": "Q38805988",
+      "wikipedia": "https://en.wikipedia.org/wiki/Annapurna_Interactive",
+      "logo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Annapurna_Interactive_Logo.png",
+        "width": 320,
+        "height": 295,
+        "credit": "Annapurna Interactive · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Annapurna_Interactive_Logo.png"
+      },
+      "leader": {
+        "name": "Hector Sanchez",
+        "role": "President",
+        "source": "wikipedia"
+      }
+    },
+    "arkane-lyon": {
+      "wikidata": "Q672642",
+      "wikipedia": "https://en.wikipedia.org/wiki/Arkane_Studios",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Arkane_Studios_Logo_2020.svg/330px-Arkane_Studios_Logo_2020.svg.png",
+        "width": 320,
+        "height": 61,
+        "credit": "ZeniMax Media Inc; Arkane Studios SASU · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Arkane_Studios_Logo_2020.svg"
+      },
+      "leader": {
+        "name": "Jerk Gustafsson",
+        "role": "President",
+        "source": "wikipedia"
+      }
+    },
+    "arrowhead-game-studios": {
+      "wikidata": "Q16833903",
+      "wikipedia": "https://en.wikipedia.org/wiki/Arrowhead_Game_Studios",
+      "leader": {
+        "name": "Shams Jorjani",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "asobo-studio": {
+      "wikidata": "Q2866735",
+      "wikipedia": "https://en.wikipedia.org/wiki/Asobo_Studio",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Asobo_logo.svg/330px-Asobo_logo.svg.png",
+        "width": 320,
+        "height": 103,
+        "credit": "Longinclown · CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Asobo_logo.svg"
+      },
+      "leader": {
+        "name": "Sebastian Wloch",
+        "role": "CEO",
+        "source": "wikidata",
+        "wikidata": "Q120002645"
+      }
+    },
+    "atlus": {
+      "wikidata": "Q780528",
+      "wikipedia": "https://en.wikipedia.org/wiki/Atlus",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Atlus_logo_%282014%29.svg/330px-Atlus_logo_%282014%29.svg.png",
+        "width": 320,
+        "height": 99,
+        "credit": "© Atlus, © Sega · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Atlus_logo_(2014).svg"
+      },
+      "leader": {
+        "name": "Osamu Ohashi",
+        "role": "President",
+        "source": "wikipedia"
+      }
+    },
+    "avalanche-software": {
+      "wikidata": "Q660990",
+      "wikipedia": "https://en.wikipedia.org/wiki/Avalanche_Software",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Avalanche_Software.svg/330px-Avalanche_Software.svg.png",
+        "width": 320,
+        "height": 37,
+        "credit": "The original uploader was Lordtobi at English Wikipedia . · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Avalanche_Software.svg"
+      },
+      "leader": {
+        "name": "John Blackburn",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "bandai-namco": {
+      "wikidata": "Q1194689",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bandai_Namco_Entertainment",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Bandai_Namco_logo_%282022%29.svg/330px-Bandai_Namco_logo_%282022%29.svg.png",
+        "width": 320,
+        "height": 73,
+        "credit": "Bandai Namco Holdings Inc. · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Bandai_Namco_logo_(2022).svg"
+      },
+      "leader": {
+        "name": "Nao Udagawa",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "bandai-namco-studios": {
+      "wikidata": "Q11328408",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bandai_Namco_Studios",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Bandai_Namco_logo_%282022%29.svg/330px-Bandai_Namco_logo_%282022%29.svg.png",
+        "width": 320,
+        "height": 73,
+        "credit": "Bandai Namco Holdings Inc. · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Bandai_Namco_logo_(2022).svg"
+      },
+      "leader": {
+        "name": "Daisuke Uchiyama",
+        "role": "President",
+        "source": "wikipedia"
+      }
+    },
+    "bend-studio": {
+      "wikidata": "Q727701",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bend_Studio",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Bend_Studio_Logo.svg/330px-Bend_Studio_Logo.svg.png",
+        "width": 320,
+        "height": 186,
+        "credit": "Bend Studio · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Bend_Studio_Logo.svg"
+      },
+      "leader": {
+        "name": "Christopher Reese",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "bethesda-game-studios": {
+      "wikidata": "Q3300783",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bethesda_Game_Studios",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Bethesda_Game_Studios_logo.svg/330px-Bethesda_Game_Studios_logo.svg.png",
+        "width": 320,
+        "height": 150,
+        "credit": "Bethesda Game Studios · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Bethesda_Game_Studios_logo.svg"
+      },
+      "leader": {
+        "name": "Angela Browder",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "bethesda-softworks": {
+      "wikidata": "Q684425",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bethesda_Softworks",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Bethesda_Softworks_Logo.svg/330px-Bethesda_Softworks_Logo.svg.png",
+        "width": 320,
+        "height": 46,
+        "credit": "Bethesda Softworks · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Bethesda_Softworks_Logo.svg"
+      },
+      "leader": {
+        "name": "Jill Braff",
+        "role": "President",
+        "source": "wikipedia"
+      }
+    },
+    "bioware": {
+      "wikidata": "Q219758",
+      "wikipedia": "https://en.wikipedia.org/wiki/BioWare",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/BioWare_2018.svg/330px-BioWare_2018.svg.png",
+        "width": 320,
+        "height": 57,
+        "credit": "Dienthoaiquangcao59 · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:BioWare_2018.svg"
+      }
+    },
+    "blizzard-entertainment": {
+      "wikidata": "Q178824",
+      "wikipedia": "https://en.wikipedia.org/wiki/Blizzard_Entertainment",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Blizzard_Entertainment_Logo_2015.svg/330px-Blizzard_Entertainment_Logo_2015.svg.png",
+        "width": 320,
+        "height": 167,
+        "credit": "Blizzard Entertainment - Stu Rose · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Blizzard_Entertainment_Logo_2015.svg"
+      },
+      "leader": {
+        "name": "Johanna Faries",
+        "role": "President",
+        "source": "wikipedia"
+      }
+    },
+    "bloober-team": {
+      "wikidata": "Q389526",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bloober_Team",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Bloober_team_logo.svg/330px-Bloober_team_logo.svg.png",
+        "width": 320,
+        "height": 89,
+        "credit": "Mantisa666 · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Bloober_team_logo.svg"
+      },
+      "leader": {
+        "name": "Piotr Babieno",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "bluepoint-games": {
+      "wikidata": "Q2708014",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bluepoint_Games",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Bluepoint_Games_logo.svg/330px-Bluepoint_Games_logo.svg.png",
+        "width": 320,
+        "height": 94,
+        "credit": "Bluepoint Games · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Bluepoint_Games_logo.svg"
+      },
+      "leader": {
+        "name": "Marco Thrush",
+        "role": "President",
+        "source": "wikipedia"
+      }
+    },
+    "bungie": {
+      "wikidata": "Q735267",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bungie",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Bungie_Logo_-_Official.svg/330px-Bungie_Logo_-_Official.svg.png",
+        "width": 320,
+        "height": 93,
+        "credit": "Bungie, Inc. (Orignal designer and Art Director: J.Reginald Dujour) · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Bungie_Logo_-_Official.svg"
+      },
+      "leader": {
+        "name": "Poria Torkan",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "capcom": {
+      "wikidata": "Q14428",
+      "wikipedia": "https://en.wikipedia.org/wiki/Capcom",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Capcom_logo.svg/330px-Capcom_logo.svg.png",
+        "width": 320,
+        "height": 59,
+        "credit": "Nessa los · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Capcom_logo.svg"
+      },
+      "leader": {
+        "name": "Kenzo Tsujimoto",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "cd-projekt": {
+      "wikidata": "Q7098994",
+      "wikipedia": "https://en.wikipedia.org/wiki/CD_Projekt_Red",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/CDProjekt-logo.svg/330px-CDProjekt-logo.svg.png",
+        "width": 320,
+        "height": 45,
+        "credit": "CD Projekt S.A. · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:CDProjekt-logo.svg"
+      },
+      "leader": {
+        "name": "Adam Kiciński",
+        "role": "CEO",
+        "source": "wikidata",
+        "wikidata": "Q9139766"
+      }
+    },
+    "cd-projekt-red": {
+      "wikidata": "Q1172164",
+      "wikipedia": "https://en.wikipedia.org/wiki/CD_Projekt_RED",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Cdprojectred-logo.svg/330px-Cdprojectred-logo.svg.png",
+        "width": 320,
+        "height": 43,
+        "credit": "CD Projekt S.A. · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Cdprojectred-logo.svg"
+      },
+      "leader": {
+        "name": "Michał Nowakowski",
+        "role": "President",
+        "source": "wikipedia"
+      }
+    },
+    "ci-games": {
+      "wikidata": "Q2549114",
+      "wikipedia": "https://en.wikipedia.org/wiki/CI_Games",
+      "leader": {
+        "name": "Marek Tymiński",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "codemasters": {
+      "wikidata": "Q23901",
+      "wikipedia": "https://en.wikipedia.org/wiki/Codemasters",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Codemasters_logo_2007_text-only.svg/330px-Codemasters_logo_2007_text-only.svg.png",
+        "width": 320,
+        "height": 21,
+        "credit": "Codemasters · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Codemasters_logo_2007_text-only.svg"
+      }
+    },
+    "coffee-stain-publishing": {
+      "wikidata": "Q116983863"
+    },
+    "coffee-stain-studios": {
+      "wikidata": "Q3178586",
+      "wikipedia": "https://en.wikipedia.org/wiki/Coffee_Stain_Studios",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Coffee_Stain_Studios_Logo_2016.svg/330px-Coffee_Stain_Studios_Logo_2016.svg.png",
+        "width": 320,
+        "height": 272,
+        "credit": "Coffee Stain Studios · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Coffee_Stain_Studios_Logo_2016.svg"
+      }
+    },
+    "colossal-order": {
+      "wikidata": "Q16829899",
+      "wikipedia": "https://en.wikipedia.org/wiki/Colossal_Order",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Colossal_Order_logo.svg/330px-Colossal_Order_logo.svg.png",
+        "width": 320,
+        "height": 320,
+        "credit": "Colossal Order Ltd · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Colossal_Order_logo.svg"
+      },
+      "leader": {
+        "name": "Mariina Hallikainen",
+        "role": "CEO",
+        "source": "wikidata",
+        "wikidata": "Q98213456"
+      }
+    },
+    "compulsion-games": {
+      "wikidata": "Q28173854",
+      "wikipedia": "https://en.wikipedia.org/wiki/Compulsion_Games",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Compulsion_Games_Logo.svg/330px-Compulsion_Games_Logo.svg.png",
+        "width": 320,
+        "height": 125,
+        "credit": "Compulsion Games · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Compulsion_Games_Logo.svg"
+      },
+      "leader": {
+        "name": "Guillaume Provost",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "concernedape": {
+      "wikidata": "Q137650268",
+      "wikipedia": "https://en.wikipedia.org/wiki/ConcernedApe_LLC",
+      "leader": {
+        "name": "Eric Barone",
+        "role": "CEO",
+        "source": "wikidata",
+        "wikidata": "Q44914560",
+        "wikipedia": "https://en.wikipedia.org/wiki/Eric_Barone",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Hackfort_2019_-_Conversations_with_Eric_Barone_09_%28cropped%29.jpg/330px-Hackfort_2019_-_Conversations_with_Eric_Barone_09_%28cropped%29.jpg",
+          "width": 320,
+          "height": 429,
+          "credit": "Treefort Music Fest · CC BY 2.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Hackfort_2019_-_Conversations_with_Eric_Barone_09_(cropped).jpg"
+        }
+      }
+    },
+    "creative-assembly": {
+      "wikidata": "Q611508",
+      "wikipedia": "https://en.wikipedia.org/wiki/Creative_Assembly",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Creative_Assembly_logo.svg/330px-Creative_Assembly_logo.svg.png",
+        "width": 320,
+        "height": 85,
+        "credit": "Creative Assembly · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Creative_Assembly_logo.svg"
+      },
+      "leader": {
+        "name": "Gareth Edmondson",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "criterion-games": {
+      "wikidata": "Q1548159",
+      "wikipedia": "https://en.wikipedia.org/wiki/Criterion_Games",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Criterion_Games_Old_Logo.svg/330px-Criterion_Games_Old_Logo.svg.png",
+        "width": 320,
+        "height": 88,
+        "credit": "criterion games · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Criterion_Games_Old_Logo.svg"
+      }
+    },
+    "d3t": {
+      "wikidata": "Q104864975"
+    },
+    "deep-silver": {
+      "wikidata": "Q553658",
+      "wikipedia": "https://en.wikipedia.org/wiki/Deep_Silver",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Deep_Silver_Logo.svg/330px-Deep_Silver_Logo.svg.png",
+        "width": 320,
+        "height": 458,
+        "credit": "Plaion · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Deep_Silver_Logo.svg"
+      }
+    },
+    "devolver-digital": {
+      "wikidata": "Q5267669",
+      "wikipedia": "https://en.wikipedia.org/wiki/Devolver_Digital",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Devolver_Digital_logo.svg/330px-Devolver_Digital_logo.svg.png",
+        "width": 320,
+        "height": 145,
+        "credit": "Unknown author Unknown author · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Devolver_Digital_logo.svg"
+      },
+      "leader": {
+        "name": "Harry Miller",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "dice": {
+      "wikidata": "Q722027",
+      "wikipedia": "https://en.wikipedia.org/wiki/DICE_(company)",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/DICE_logo.svg/330px-DICE_logo.svg.png",
+        "width": 320,
+        "height": 77,
+        "credit": "Hamiltonham · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:DICE_logo.svg"
+      },
+      "leader": {
+        "name": "Rebecka Coutaz",
+        "role": "General manager",
+        "source": "wikipedia"
+      }
+    },
+    "digital-extremes": {
+      "wikidata": "Q1224739",
+      "wikipedia": "https://en.wikipedia.org/wiki/Digital_Extremes"
+    },
+    "double-fine": {
+      "wikidata": "Q1251435",
+      "wikipedia": "https://en.wikipedia.org/wiki/Double_Fine",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Double_Fine_logo_black.svg/330px-Double_Fine_logo_black.svg.png",
+        "width": 320,
+        "height": 138,
+        "credit": "various · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Double_Fine_logo_black.svg"
+      },
+      "leader": {
+        "name": "Tim Schafer",
+        "role": "Studio head",
+        "source": "wikidata",
+        "wikidata": "Q523191",
+        "wikipedia": "https://en.wikipedia.org/wiki/Tim_Schafer",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Tim_120A354-crop_%28cropped%29.jpg/330px-Tim_120A354-crop_%28cropped%29.jpg",
+          "width": 320,
+          "height": 416,
+          "credit": "Thespaff · CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Tim_120A354-crop_(cropped).jpg"
+        }
+      }
+    },
+    "ea-vancouver": {
+      "wikidata": "Q752317",
+      "wikipedia": "https://en.wikipedia.org/wiki/EA_Vancouver"
+    },
+    "electronic-arts": {
+      "wikidata": "Q173941",
+      "wikipedia": "https://en.wikipedia.org/wiki/Electronic_Arts",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Electronic_Arts_historical_logo_80s.svg/330px-Electronic_Arts_historical_logo_80s.svg.png",
+        "width": 320,
+        "height": 121,
+        "credit": "Electronic Arts · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Electronic_Arts_historical_logo_80s.svg"
+      },
+      "leader": {
+        "name": "Andrew Wilson",
+        "role": "CEO",
+        "source": "wikidata",
+        "wikidata": "Q15064277",
+        "wikipedia": "https://en.wikipedia.org/wiki/Andrew_Wilson_(businessman)"
+      }
+    },
+    "ember-lab": {
+      "wikidata": "Q107222498"
+    },
+    "enhance": {
+      "wikidata": "Q101214003"
+    },
+    "epic-games": {
+      "wikidata": "Q739711",
+      "wikipedia": "https://en.wikipedia.org/wiki/Epic_Games",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Epic_Games_logo.svg/330px-Epic_Games_logo.svg.png",
+        "width": 320,
+        "height": 371,
+        "credit": "Epic Games · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Epic_Games_logo.svg"
+      },
+      "leader": {
+        "name": "Tim Sweeney",
+        "role": "Studio head",
+        "source": "wikidata",
+        "wikidata": "Q323671",
+        "wikipedia": "https://en.wikipedia.org/wiki/Tim_Sweeney",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Tim_Sweeney%2C_GDCA_2017_%28portrait_crop%29.jpg/330px-Tim_Sweeney%2C_GDCA_2017_%28portrait_crop%29.jpg",
+          "width": 320,
+          "height": 427,
+          "credit": "Official GDC · CC BY 2.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Tim_Sweeney,_GDCA_2017_(portrait_crop).jpg"
+        }
+      }
+    },
+    "evil-empire": {
+      "wikidata": "Q104804747",
+      "wikipedia": "https://en.wikipedia.org/wiki/Evil_Empire_(company)"
+    },
+    "finji": {
+      "wikidata": "Q24707091",
+      "wikipedia": "https://en.wikipedia.org/wiki/Finji",
+      "leader": {
+        "name": "Rebekah Saltsman",
+        "role": "CEO",
+        "source": "wikidata",
+        "wikidata": "Q125116597",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Rebekah_Saltsman_Finji_GDC_2024_%28cropped%29.jpg/330px-Rebekah_Saltsman_Finji_GDC_2024_%28cropped%29.jpg",
+          "width": 320,
+          "height": 426,
+          "credit": "Official GDC · CC BY 2.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Rebekah_Saltsman_Finji_GDC_2024_(cropped).jpg"
+        }
+      }
+    },
+    "firaxis-games": {
+      "wikidata": "Q959759",
+      "wikipedia": "https://en.wikipedia.org/wiki/Firaxis_Games",
+      "leader": {
+        "name": "Heather Hazen",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "focus-entertainment": {
+      "wikidata": "Q921944",
+      "wikipedia": "https://en.wikipedia.org/wiki/Focus_Entertainment",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Focus_Entertainment_logo.svg/330px-Focus_Entertainment_logo.svg.png",
+        "width": 320,
+        "height": 83,
+        "credit": "Focus Entertainment · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Focus_Entertainment_logo.svg"
+      },
+      "leader": {
+        "name": "Christophe Nobileau",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "fromsoftware": {
+      "wikidata": "Q2414469",
+      "wikipedia": "https://en.wikipedia.org/wiki/FromSoftware",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Fromsoftware_logo.svg/330px-Fromsoftware_logo.svg.png",
+        "width": 320,
+        "height": 28,
+        "credit": "FromSoftware · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Fromsoftware_logo.svg"
+      },
+      "leader": {
+        "name": "Hidetaka Miyazaki",
+        "role": "President",
+        "source": "wikipedia",
+        "wikipedia": "https://en.wikipedia.org/wiki/Hidetaka_Miyazaki",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Hidetaka_Miyazaki%2C_The_Game_Awards_2022_%28cropped%29.png/330px-Hidetaka_Miyazaki%2C_The_Game_Awards_2022_%28cropped%29.png",
+          "width": 320,
+          "height": 481,
+          "credit": "Zion Grassl · CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Hidetaka_Miyazaki,_The_Game_Awards_2022_(cropped).png"
+        }
+      }
+    },
+    "game-freak": {
+      "wikidata": "Q782028",
+      "wikipedia": "https://en.wikipedia.org/wiki/Game_Freak",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/GAME_FREAK_logo.svg/330px-GAME_FREAK_logo.svg.png",
+        "width": 320,
+        "height": 34,
+        "credit": "GAME FREAK inc. · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:GAME_FREAK_logo.svg"
+      },
+      "leader": {
+        "name": "Satoshi Tajiri",
+        "role": "Studio head",
+        "source": "wikidata",
+        "wikidata": "Q295218",
+        "wikipedia": "https://en.wikipedia.org/wiki/Satoshi_Tajiri"
+      }
+    },
+    "game-science": {
+      "wikidata": "Q109342583",
+      "wikipedia": "https://en.wikipedia.org/wiki/Game_Science",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Game_Science_text_logo.png/330px-Game_Science_text_logo.png",
+        "width": 320,
+        "height": 130,
+        "credit": "Game Science · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Game_Science_text_logo.png"
+      },
+      "leader": {
+        "name": "Feng Ji",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "gearbox-publishing": {
+      "wikidata": "Q105304774"
+    },
+    "gearbox-software": {
+      "wikidata": "Q1046593",
+      "wikipedia": "https://en.wikipedia.org/wiki/Gearbox_Software",
+      "logo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Gearbox_Software_logo_%281999%29.jpg",
+        "width": 320,
+        "height": 103,
+        "credit": "The original uploader was Lordtobi at English Wikipedia . · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Gearbox_Software_logo_(1999).jpg"
+      },
+      "leader": {
+        "name": "Steve Jones",
+        "role": "President",
+        "source": "wikipedia"
+      }
+    },
+    "grezzo": {
+      "wikidata": "Q1255529",
+      "wikipedia": "https://en.wikipedia.org/wiki/Grezzo",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Grezzo_logo.svg/330px-Grezzo_logo.svg.png",
+        "width": 320,
+        "height": 40,
+        "credit": "GREZZO Co., Ltd. · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Grezzo_logo.svg"
+      },
+      "leader": {
+        "name": "Koichi Ishii",
+        "role": "CEO",
+        "source": "wikipedia",
+        "wikipedia": "https://en.wikipedia.org/wiki/Koichi_Ishii",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Koichi_Ishii_protrait_2.jpg/330px-Koichi_Ishii_protrait_2.jpg",
+          "width": 320,
+          "height": 360,
+          "credit": "Joesph Higgins · CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Koichi_Ishii_protrait_2.jpg"
+        }
+      }
+    },
+    "grinding-gear-games": {
+      "wikidata": "Q5609440",
+      "wikipedia": "https://en.wikipedia.org/wiki/Grinding_Gear_Games"
+    },
+    "gsc-game-world": {
+      "wikidata": "Q1425861",
+      "wikipedia": "https://en.wikipedia.org/wiki/GSC_Game_World",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/GSC_Game_World_%282026%29.svg/330px-GSC_Game_World_%282026%29.svg.png",
+        "width": 320,
+        "height": 320,
+        "credit": "Unknown author Unknown author · CC0",
+        "source": "https://commons.wikimedia.org/wiki/File:GSC_Game_World_(2026).svg"
+      },
+      "leader": {
+        "name": "Ievgen Grygorovych",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "guerrilla-games": {
+      "wikidata": "Q337910",
+      "wikipedia": "https://en.wikipedia.org/wiki/Guerrilla_Games",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Logo-Guerrilla.png/330px-Logo-Guerrilla.png",
+        "width": 320,
+        "height": 449,
+        "credit": "Jair05 · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Logo-Guerrilla.png"
+      },
+      "leader": {
+        "name": "Joel Eschler",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "gunfire-games": {
+      "wikidata": "Q23253782",
+      "wikipedia": "https://en.wikipedia.org/wiki/Gunfire_Games",
+      "leader": {
+        "name": "David Adams",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "hal-laboratory": {
+      "wikidata": "Q1068734",
+      "wikipedia": "https://en.wikipedia.org/wiki/HAL_Laboratory",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/HAL_Laboratory_Logo.png/330px-HAL_Laboratory_Logo.png",
+        "width": 320,
+        "height": 33,
+        "credit": "© HAL Laboratory, Inc. · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:HAL_Laboratory_Logo.png"
+      },
+      "leader": {
+        "name": "Shigefumi Kawase",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "hangar-13": {
+      "wikidata": "Q5647891",
+      "wikipedia": "https://en.wikipedia.org/wiki/Hangar_13",
+      "leader": {
+        "name": "Nick Baynes",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "hazelight-studios": {
+      "wikidata": "Q60354586",
+      "wikipedia": "https://en.wikipedia.org/wiki/Hazelight_Studios"
+    },
+    "hello-games": {
+      "wikidata": "Q952164",
+      "wikipedia": "https://en.wikipedia.org/wiki/Hello_Games",
+      "leader": {
+        "name": "Sean Murray",
+        "role": "Managing director",
+        "source": "wikipedia"
+      }
+    },
+    "hexworks": {
+      "wikidata": "Q118474214"
+    },
+    "housemarque": {
+      "wikidata": "Q2572761",
+      "wikipedia": "https://en.wikipedia.org/wiki/Housemarque",
+      "logo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Housemarque_logo.png",
+        "width": 320,
+        "height": 97,
+        "credit": "Unknown author Unknown author · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Housemarque_logo.png"
+      },
+      "leader": {
+        "name": "Sami Hakala",
+        "role": "Managing director",
+        "source": "wikipedia"
+      }
+    },
+    "hoyoverse": {
+      "wikidata": "Q116189096",
+      "wikipedia": "https://en.wikipedia.org/wiki/HoYoverse"
+    },
+    "id-software": {
+      "wikidata": "Q204474",
+      "wikipedia": "https://en.wikipedia.org/wiki/Id_Software",
+      "leader": {
+        "name": "Marty Stratton",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "insomniac": {
+      "wikidata": "Q1141245",
+      "wikipedia": "https://en.wikipedia.org/wiki/Insomniac_Games",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Insomniac_Games_logo.svg/330px-Insomniac_Games_logo.svg.png",
+        "width": 320,
+        "height": 61,
+        "credit": "Upload by: BlueySomething · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Insomniac_Games_logo.svg"
+      },
+      "leader": {
+        "name": "Ted Price",
+        "role": "Studio head",
+        "source": "wikidata",
+        "wikidata": "Q1451415",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ted_Price_(businessman)",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Ted_Price%2C_2013.jpg/330px-Ted_Price%2C_2013.jpg",
+          "width": 320,
+          "height": 363,
+          "credit": "Michael Foertsch · CC BY-SA 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Ted_Price,_2013.jpg"
+        }
+      }
+    },
+    "intelligent-systems": {
+      "wikidata": "Q150001",
+      "wikipedia": "https://en.wikipedia.org/wiki/Intelligent_Systems",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Intelligent_Systems_Logo.svg/330px-Intelligent_Systems_Logo.svg.png",
+        "width": 320,
+        "height": 66,
+        "credit": "©INTELLIGENT SYSTEMS CO.,LTD. · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Intelligent_Systems_Logo.svg"
+      },
+      "leader": {
+        "name": "Toshiyuki Nakamura",
+        "role": "President",
+        "source": "wikipedia"
+      }
+    },
+    "io-interactive": {
+      "wikidata": "Q746059",
+      "wikipedia": "https://en.wikipedia.org/wiki/IO_Interactive",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/IO_Interactive_original_logo.svg/330px-IO_Interactive_original_logo.svg.png",
+        "width": 320,
+        "height": 51,
+        "credit": "IO Interactive · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:IO_Interactive_original_logo.svg"
+      },
+      "leader": {
+        "name": "Hakan B. Abrak",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "iron-gate-studio": {
+      "wikidata": "Q105725001"
+    },
+    "kepler-interactive": {
+      "wikidata": "Q116786225",
+      "wikipedia": "https://en.wikipedia.org/wiki/Kepler_Interactive",
+      "leader": {
+        "name": "Alexis Garavaryan",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "koei-tecmo": {
+      "wikidata": "Q1576915",
+      "wikipedia": "https://en.wikipedia.org/wiki/Koei_Tecmo",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Koei_Tecmo_Holdings_logo.svg/330px-Koei_Tecmo_Holdings_logo.svg.png",
+        "width": 320,
+        "height": 202,
+        "credit": "Koei Tecmo Holdings · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Koei_Tecmo_Holdings_logo.svg"
+      },
+      "leader": {
+        "name": "Yōichi Erikawa",
+        "role": "CEO",
+        "source": "wikidata",
+        "wikidata": "Q9097127"
+      }
+    },
+    "kojima-productions": {
+      "wikidata": "Q22123955",
+      "wikipedia": "https://en.wikipedia.org/wiki/Kojima_Productions",
+      "leader": {
+        "name": "Shinji Hirano",
+        "role": "President",
+        "source": "wikipedia"
+      }
+    },
+    "konami": {
+      "wikidata": "Q45700",
+      "wikipedia": "https://en.wikipedia.org/wiki/Konami",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Konami_4th_logo_1.svg/330px-Konami_4th_logo_1.svg.png",
+        "width": 320,
+        "height": 54,
+        "credit": "KONAMI CORPORATION · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Konami_4th_logo_1.svg"
+      },
+      "leader": {
+        "name": "Kimihiko Higashio",
+        "role": "President",
+        "source": "wikipedia"
+      }
+    },
+    "larian": {
+      "wikidata": "Q4042609",
+      "wikipedia": "https://en.wikipedia.org/wiki/Larian_Studios",
+      "logo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/LarianStudiosLogo.png",
+        "width": 320,
+        "height": 110,
+        "credit": "Larian Studios · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:LarianStudiosLogo.png"
+      },
+      "leader": {
+        "name": "Swen Vincke",
+        "role": "Studio head",
+        "source": "wikidata",
+        "wikidata": "Q17125907",
+        "wikipedia": "https://en.wikipedia.org/wiki/Swen_Vincke",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Swen_Vincke_2018.png/330px-Swen_Vincke_2018.png",
+          "width": 320,
+          "height": 407,
+          "credit": "Bandai Namco Entertainment America · CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Swen_Vincke_2018.png"
+        }
+      }
+    },
+    "localthunk": {
+      "wikidata": "Q125503065"
+    },
+    "machinegames": {
+      "wikidata": "Q6723623",
+      "wikipedia": "https://en.wikipedia.org/wiki/MachineGames",
+      "leader": {
+        "name": "Jerk Gustafsson",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "maddy-makes-games": {
+      "wikidata": "Q91620371",
+      "wikipedia": "https://en.wikipedia.org/wiki/Maddy_Makes_Games",
+      "logo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Matt-makes-games-logo.png",
+        "width": 320,
+        "height": 207,
+        "credit": "Maddy Thorson · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Matt-makes-games-logo.png"
+      }
+    },
+    "massive-entertainment": {
+      "wikidata": "Q1466613",
+      "wikipedia": "https://en.wikipedia.org/wiki/Massive_Entertainment",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Massive_entertainment_logo.png/330px-Massive_entertainment_logo.png",
+        "width": 320,
+        "height": 68,
+        "credit": "Massive Entertainment - A Ubisoft Studio · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Massive_entertainment_logo.png"
+      },
+      "leader": {
+        "name": "Thomas Andrén",
+        "role": "Managing director",
+        "source": "wikipedia"
+      }
+    },
+    "massive-monster": {
+      "wikidata": "Q114787057"
+    },
+    "mercurysteam": {
+      "wikidata": "Q2699057",
+      "wikipedia": "https://en.wikipedia.org/wiki/MercurySteam",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/MercurySteam.svg/330px-MercurySteam.svg.png",
+        "width": 320,
+        "height": 27,
+        "credit": "Zrawn · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:MercurySteam.svg"
+      }
+    },
+    "meta-publishing": {
+      "wikidata": "Q100158597"
+    },
+    "mintrocket": {
+      "wikidata": "Q124304157"
+    },
+    "mobius-digital": {
+      "wikidata": "Q69427151"
+    },
+    "mojang-studios": {
+      "wikidata": "Q1129295",
+      "wikipedia": "https://en.wikipedia.org/wiki/Mojang_Studios",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Mojang_Studios_Logo_%282020%2C_wide%29.svg/330px-Mojang_Studios_Logo_%282020%2C_wide%29.svg.png",
+        "width": 320,
+        "height": 91,
+        "credit": "Bold · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Mojang_Studios_Logo_(2020,_wide).svg"
+      },
+      "leader": {
+        "name": "Maria Angelidou-Smith",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "monolith-productions": {
+      "wikidata": "Q907357",
+      "wikipedia": "https://en.wikipedia.org/wiki/Monolith_Productions",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Monolith_Productions%2C_Inc..png/330px-Monolith_Productions%2C_Inc..png",
+        "width": 320,
+        "height": 240,
+        "credit": "Monolith Productions, Inc. · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Monolith_Productions,_Inc..png"
+      }
+    },
+    "monolith-soft": {
+      "wikidata": "Q1239326",
+      "wikipedia": "https://en.wikipedia.org/wiki/Monolith_Soft",
+      "logo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Monolith_Soft_logo.png",
+        "width": 320,
+        "height": 25,
+        "credit": "Monolith Soft · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Monolith_Soft_logo.png"
+      },
+      "leader": {
+        "name": "Hirohide Sugiura",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "monstars": {
+      "wikidata": "Q104158530"
+    },
+    "moon-studios": {
+      "wikidata": "Q23541586",
+      "wikipedia": "https://en.wikipedia.org/wiki/Moon_Studios",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/MoonStudiosLogo.png/330px-MoonStudiosLogo.png",
+        "width": 320,
+        "height": 152,
+        "credit": "Thomasmahler · CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:MoonStudiosLogo.png"
+      },
+      "leader": {
+        "name": "Thomas Mahler",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "motion-twin": {
+      "wikidata": "Q3325177",
+      "wikipedia": "https://en.wikipedia.org/wiki/Motion_Twin",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Motion_Twin_logo.svg/330px-Motion_Twin_logo.svg.png",
+        "width": 320,
+        "height": 320,
+        "credit": "Motion Twin · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Motion_Twin_logo.svg"
+      }
+    },
+    "motive-studio": {
+      "wikidata": "Q21189538",
+      "wikipedia": "https://en.wikipedia.org/wiki/Motive_Studio",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Motive_Studios_2021_Logo.svg/330px-Motive_Studios_2021_Logo.svg.png",
+        "width": 320,
+        "height": 54,
+        "credit": "Motive Studios · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Motive_Studios_2021_Logo.svg"
+      },
+      "leader": {
+        "name": "Jade Raymond",
+        "role": "Studio head",
+        "source": "wikidata",
+        "wikidata": "Q235734",
+        "wikipedia": "https://en.wikipedia.org/wiki/Jade_Raymond",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Jade_Raymond_Feb_2012-cropped.jpg/330px-Jade_Raymond_Feb_2012-cropped.jpg",
+          "width": 320,
+          "height": 322,
+          "credit": "ZCooperstown · CC BY-SA 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Jade_Raymond_Feb_2012-cropped.jpg"
+        }
+      }
+    },
+    "mundfish": {
+      "wikidata": "Q106070909",
+      "wikipedia": "https://en.wikipedia.org/wiki/Mundfish",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Mundfish_logo.svg/330px-Mundfish_logo.svg.png",
+        "width": 320,
+        "height": 72,
+        "credit": "Mundfish · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Mundfish_logo.svg"
+      }
+    },
+    "naughty-dog": {
+      "wikidata": "Q720871",
+      "wikipedia": "https://en.wikipedia.org/wiki/Naughty_Dog",
+      "leader": {
+        "name": "Neil Druckmann",
+        "role": "Studio head",
+        "source": "wikipedia",
+        "wikipedia": "https://en.wikipedia.org/wiki/Neil_Druckmann",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Neil_Druckmann%2C_co-director%2C_at_SXSW_2025_01_%28cropped%29.jpg/330px-Neil_Druckmann%2C_co-director%2C_at_SXSW_2025_01_%28cropped%29.jpg",
+          "width": 320,
+          "height": 453,
+          "credit": "Bea Phi · CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Neil_Druckmann,_co-director,_at_SXSW_2025_01_(cropped).jpg"
+        }
+      }
+    },
+    "neowiz": {
+      "wikidata": "Q795583",
+      "wikipedia": "https://en.wikipedia.org/wiki/Neowiz",
+      "leader": {
+        "name": "Kim Sang Wook",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "netease-games": {
+      "wikidata": "Q62011455",
+      "wikipedia": "https://en.wikipedia.org/wiki/NetEase_Games",
+      "leader": {
+        "name": "Ding Lei",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "netherrealm-studios": {
+      "wikidata": "Q2696696",
+      "wikipedia": "https://en.wikipedia.org/wiki/NetherRealm_Studios",
+      "leader": {
+        "name": "Ed Boon",
+        "role": "Studio head",
+        "source": "wikidata",
+        "wikidata": "Q1282289",
+        "wikipedia": "https://en.wikipedia.org/wiki/Ed_Boon",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Ed_Boon_at_E3_2013.jpg/330px-Ed_Boon_at_E3_2013.jpg",
+          "width": 320,
+          "height": 240,
+          "credit": "Sergey Galyonkin · CC BY-SA 2.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Ed_Boon_at_E3_2013.jpg"
+        }
+      }
+    },
+    "next-level-games": {
+      "wikidata": "Q2719211",
+      "wikipedia": "https://en.wikipedia.org/wiki/Next_Level_Games",
+      "leader": {
+        "name": "Alex MacFarlane",
+        "role": "President",
+        "source": "wikipedia"
+      }
+    },
+    "ninja-theory": {
+      "wikidata": "Q1783815",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ninja_Theory",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Ninja_Theory_wordmark.svg/330px-Ninja_Theory_wordmark.svg.png",
+        "width": 320,
+        "height": 41,
+        "credit": "Xbox Game Studios; Ninja Theory Ltd. · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Ninja_Theory_wordmark.svg"
+      },
+      "leader": {
+        "name": "Dom Matthews",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "nintendo": {
+      "wikidata": "Q8093",
+      "wikipedia": "https://en.wikipedia.org/wiki/Nintendo",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Nintendo.svg/330px-Nintendo.svg.png",
+        "width": 320,
+        "height": 107,
+        "credit": "Nintendo · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Nintendo.svg"
+      },
+      "leader": {
+        "name": "Shuntaro Furukawa",
+        "role": "CEO",
+        "source": "wikidata",
+        "wikidata": "Q52177144",
+        "wikipedia": "https://en.wikipedia.org/wiki/Shuntaro_Furukawa"
+      }
+    },
+    "nintendo-epd": {
+      "wikidata": "Q20972825",
+      "wikipedia": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_Planning_%26_Development",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Nintendo.svg/330px-Nintendo.svg.png",
+        "width": 320,
+        "height": 107,
+        "credit": "Nintendo · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Nintendo.svg"
+      },
+      "leader": {
+        "name": "Shinya Takahashi",
+        "role": "General manager",
+        "source": "wikipedia"
+      }
+    },
+    "nixxes-software": {
+      "wikidata": "Q13219333",
+      "wikipedia": "https://en.wikipedia.org/wiki/Nixxes_Software",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Nixxes_Software_logo.webp/330px-Nixxes_Software_logo.webp",
+        "width": 320,
+        "height": 308,
+        "credit": "Nixxes Software · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Nixxes_Software_logo.webp"
+      }
+    },
+    "obsidian-entertainment": {
+      "wikidata": "Q629821",
+      "wikipedia": "https://en.wikipedia.org/wiki/Obsidian_Entertainment",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Obsidian_Entertainment_black.svg/330px-Obsidian_Entertainment_black.svg.png",
+        "width": 320,
+        "height": 74,
+        "credit": "Obsidian Entertainment · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Obsidian_Entertainment_black.svg"
+      },
+      "leader": {
+        "name": "Feargus Urquhart",
+        "role": "Studio head",
+        "source": "wikidata",
+        "wikidata": "Q996918",
+        "wikipedia": "https://en.wikipedia.org/wiki/Feargus_Urquhart",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Feargus_Urkuhart_at_KRI_2013%2C_Russia%2C_Moscow_%28cropped%29.jpg/330px-Feargus_Urkuhart_at_KRI_2013%2C_Russia%2C_Moscow_%28cropped%29.jpg",
+          "width": 320,
+          "height": 418,
+          "credit": "Cassidy Rainer · CC BY-SA 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Feargus_Urkuhart_at_KRI_2013,_Russia,_Moscow_(cropped).jpg"
+        }
+      }
+    },
+    "owlcat-games": {
+      "wikidata": "Q106805418",
+      "wikipedia": "https://en.wikipedia.org/wiki/Owlcat_Games",
+      "leader": {
+        "name": "Oleg Shpilchevsky",
+        "role": "CEO",
+        "source": "wikidata",
+        "wikidata": "Q137802032"
+      }
+    },
+    "paradox-interactive": {
+      "wikidata": "Q217493",
+      "wikipedia": "https://en.wikipedia.org/wiki/Paradox_Interactive",
+      "leader": {
+        "name": "Ebba Ljungerud",
+        "role": "CEO",
+        "source": "wikidata",
+        "wikidata": "Q61887834"
+      }
+    },
+    "platinumgames": {
+      "wikidata": "Q1576758",
+      "wikipedia": "https://en.wikipedia.org/wiki/PlatinumGames",
+      "leader": {
+        "name": "Atsushi Inaba",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "playdead": {
+      "wikidata": "Q3137798",
+      "wikipedia": "https://en.wikipedia.org/wiki/Playdead",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Playdead_logo.gif/330px-Playdead_logo.gif",
+        "width": 320,
+        "height": 45,
+        "credit": "Playdead · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Playdead_logo.gif"
+      }
+    },
+    "playground-games": {
+      "wikidata": "Q130744",
+      "wikipedia": "https://en.wikipedia.org/wiki/Playground_Games",
+      "leader": {
+        "name": "Trevor Williams",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "playstack": {
+      "wikidata": "Q116904012"
+    },
+    "pocketpair": {
+      "wikidata": "Q114268910",
+      "wikipedia": "https://en.wikipedia.org/wiki/Pocketpair",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Pocketpair_company_new_logo.png/330px-Pocketpair_company_new_logo.png",
+        "width": 320,
+        "height": 70,
+        "credit": "Pocketpair, Inc. · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Pocketpair_company_new_logo.png"
+      },
+      "leader": {
+        "name": "Takuro Mizobe",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "polyphony-digital": {
+      "wikidata": "Q1053684",
+      "wikipedia": "https://en.wikipedia.org/wiki/Polyphony_Digital",
+      "leader": {
+        "name": "Kazunori Yamauchi",
+        "role": "Studio head",
+        "source": "wikidata",
+        "wikidata": "Q554137",
+        "wikipedia": "https://en.wikipedia.org/wiki/Kazunori_Yamauchi",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Festival_automobile_international_2015_-_Kazunori_Yamauchi_-_006.jpg/330px-Festival_automobile_international_2015_-_Kazunori_Yamauchi_-_006.jpg",
+          "width": 320,
+          "height": 480,
+          "credit": "Thesupermat · CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Festival_automobile_international_2015_-_Kazunori_Yamauchi_-_006.jpg"
+        }
+      }
+    },
+    "poncle": {
+      "wikidata": "Q110726236"
+    },
+    "private-division": {
+      "wikidata": "Q46617715",
+      "wikipedia": "https://en.wikipedia.org/wiki/Private_Division",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Private_Division_Logo.svg/330px-Private_Division_Logo.svg.png",
+        "width": 320,
+        "height": 320,
+        "credit": "Take-Two Interactive · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Private_Division_Logo.svg"
+      }
+    },
+    "psyonix": {
+      "wikidata": "Q18345499",
+      "wikipedia": "https://en.wikipedia.org/wiki/Psyonix",
+      "leader": {
+        "name": "Dave Hagewood",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "rare": {
+      "wikidata": "Q642707",
+      "wikipedia": "https://en.wikipedia.org/wiki/Rare_(company)",
+      "leader": {
+        "name": "Joe Neate",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "raven-software": {
+      "wikidata": "Q1062986",
+      "wikipedia": "https://en.wikipedia.org/wiki/Raven_Software",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Raven_Software-logo.svg/330px-Raven_Software-logo.svg.png",
+        "width": 320,
+        "height": 127,
+        "credit": "Raven software · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Raven_Software-logo.svg"
+      },
+      "leader": {
+        "name": "David Pellas",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "re-logic": {
+      "wikidata": "Q20747389",
+      "wikipedia": "https://en.wikipedia.org/wiki/Re-Logic",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Re-Logic_Logo.png/330px-Re-Logic_Logo.png",
+        "width": 320,
+        "height": 59,
+        "credit": "Re-Logic · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Re-Logic_Logo.png"
+      },
+      "leader": {
+        "name": "Andrew Spinks",
+        "role": "President",
+        "source": "wikipedia"
+      }
+    },
+    "relic-entertainment": {
+      "wikidata": "Q1518612",
+      "wikipedia": "https://en.wikipedia.org/wiki/Relic_Entertainment",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Relic-entertainment-logo.svg/330px-Relic-entertainment-logo.svg.png",
+        "width": 320,
+        "height": 85,
+        "credit": "Relic Entertainment · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Relic-entertainment-logo.svg"
+      },
+      "leader": {
+        "name": "Justin Dowdeswell",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "remedy": {
+      "wikidata": "Q830947",
+      "wikipedia": "https://en.wikipedia.org/wiki/Remedy_Entertainment",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Remedy_Entertainment_logo_%282023-present%29.svg/330px-Remedy_Entertainment_logo_%282023-present%29.svg.png",
+        "width": 320,
+        "height": 410,
+        "credit": "Remedy Entertainment · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Remedy_Entertainment_logo_(2023-present).svg"
+      },
+      "leader": {
+        "name": "Tero Virtala",
+        "role": "CEO",
+        "source": "wikidata",
+        "wikidata": "Q125799651"
+      }
+    },
+    "resonair": {
+      "wikidata": "Q104158496"
+    },
+    "respawn-entertainment": {
+      "wikidata": "Q7884447",
+      "wikipedia": "https://en.wikipedia.org/wiki/Respawn_Entertainment",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Respawn_Logo.svg/330px-Respawn_Logo.svg.png",
+        "width": 320,
+        "height": 65,
+        "credit": "Electronic Arts, Inc; Respawn Entertainment · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Respawn_Logo.svg"
+      }
+    },
+    "retro-studios": {
+      "wikidata": "Q531167",
+      "wikipedia": "https://en.wikipedia.org/wiki/Retro_Studios",
+      "leader": {
+        "name": "Michael Kelbaugh",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "riot-games": {
+      "wikidata": "Q1060165",
+      "wikipedia": "https://en.wikipedia.org/wiki/Riot_Games",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Riot_Games_wordmark.svg/330px-Riot_Games_wordmark.svg.png",
+        "width": 320,
+        "height": 163,
+        "credit": "Riot Games · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Riot_Games_wordmark.svg"
+      },
+      "leader": {
+        "name": "Dylan Jadeja",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "rockstar-games": {
+      "wikidata": "Q94912",
+      "wikipedia": "https://en.wikipedia.org/wiki/Rockstar_Games",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Rockstar_Games_Logo.svg/330px-Rockstar_Games_Logo.svg.png",
+        "width": 320,
+        "height": 294,
+        "credit": "Take-Two Interativa de · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Rockstar_Games_Logo.svg"
+      },
+      "leader": {
+        "name": "Sam Houser",
+        "role": "Studio head",
+        "source": "wikidata",
+        "wikidata": "Q984061",
+        "wikipedia": "https://en.wikipedia.org/wiki/Sam_Houser",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Sam_Houser_at_Rockstar_Games.png/330px-Sam_Houser_at_Rockstar_Games.png",
+          "width": 320,
+          "height": 488,
+          "credit": "Anthony Parello · CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Sam_Houser_at_Rockstar_Games.png"
+        }
+      }
+    },
+    "rockstar-north": {
+      "wikidata": "Q94893",
+      "wikipedia": "https://en.wikipedia.org/wiki/Rockstar_North",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Rockstar_North_Logo.svg/330px-Rockstar_North_Logo.svg.png",
+        "width": 320,
+        "height": 294,
+        "credit": "Take-Two Interactive · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Rockstar_North_Logo.svg"
+      },
+      "leader": {
+        "name": "Andrew Semple",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "rocksteady-studios": {
+      "wikidata": "Q2307159",
+      "wikipedia": "https://en.wikipedia.org/wiki/Rocksteady_Studios",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Rocksteady.png/330px-Rocksteady.png",
+        "width": 320,
+        "height": 60,
+        "credit": "Wikipedia57 · CC BY-SA 4.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Rocksteady.png"
+      },
+      "leader": {
+        "name": "Nathan Burlow",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "round8-studio": {
+      "wikidata": "Q109908775"
+    },
+    "ryu-ga-gotoku-studio": {
+      "wikidata": "Q18415238",
+      "wikipedia": "https://en.wikipedia.org/wiki/RGG_Studio",
+      "leader": {
+        "name": "Masayoshi Yokoyama",
+        "role": "Studio head",
+        "source": "wikipedia",
+        "wikipedia": "https://en.wikipedia.org/wiki/Masayoshi_Yokoyama"
+      }
+    },
+    "sabotage-studio": {
+      "wikidata": "Q122277804"
+    },
+    "sandfall-interactive": {
+      "wikidata": "Q131986115",
+      "wikipedia": "https://en.wikipedia.org/wiki/Sandfall_Interactive",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Company-Logo_Sandfall-Interactive-Inits.png/330px-Company-Logo_Sandfall-Interactive-Inits.png",
+        "width": 320,
+        "height": 140,
+        "credit": "Enzonss · CC0",
+        "source": "https://commons.wikimedia.org/wiki/File:Company-Logo_Sandfall-Interactive-Inits.png"
+      }
+    },
+    "santa-monica-studio": {
+      "wikidata": "Q656710",
+      "wikipedia": "https://en.wikipedia.org/wiki/Santa_Monica_Studio",
+      "leader": {
+        "name": "Yumi Yang",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "sega": {
+      "wikidata": "Q122741",
+      "wikipedia": "https://en.wikipedia.org/wiki/Sega",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/SEGA_logo_JPN.svg/330px-SEGA_logo_JPN.svg.png",
+        "width": 320,
+        "height": 107,
+        "credit": "Sega · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:SEGA_logo_JPN.svg"
+      },
+      "leader": {
+        "name": "Shuji Utsumi",
+        "role": "President",
+        "source": "wikipedia",
+        "wikipedia": "https://en.wikipedia.org/wiki/Shuji_Utsumi",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/%E5%86%85%E6%B5%B7%E5%B7%9E%E5%8F%B2%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2.jpg/330px-%E5%86%85%E6%B5%B7%E5%B7%9E%E5%8F%B2%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2.jpg",
+          "width": 320,
+          "height": 320,
+          "credit": "ぷぺる王 · CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:%E5%86%85%E6%B5%B7%E5%B7%9E%E5%8F%B2%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2.jpg"
+        }
+      }
+    },
+    "shift-up": {
+      "wikidata": "Q108537188",
+      "wikipedia": "https://en.wikipedia.org/wiki/Shift_Up",
+      "leader": {
+        "name": "Kim Hyung Tae",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "sie": {
+      "wikidata": "Q18594",
+      "wikipedia": "https://en.wikipedia.org/wiki/Sony_Interactive_Entertainment",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Sony_Interactive_Entertainment_logo_%282016%29.svg/330px-Sony_Interactive_Entertainment_logo_%282016%29.svg.png",
+        "width": 320,
+        "height": 117,
+        "credit": "Sony Interactive Entertainment · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Sony_Interactive_Entertainment_logo_(2016).svg"
+      },
+      "leader": {
+        "name": "Hiroki Totoki",
+        "role": "CEO",
+        "source": "wikidata",
+        "wikidata": "Q89449105",
+        "wikipedia": "https://en.wikipedia.org/wiki/Hiroki_Totoki",
+        "photo": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Hiroki_Totoki_%28cropped%29.jpg",
+          "width": 320,
+          "height": 411,
+          "credit": "経済産業省ウェブサイト · CC BY 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Hiroki_Totoki_(cropped).jpg"
+        }
+      }
+    },
+    "sledgehammer-games": {
+      "wikidata": "Q1318002",
+      "wikipedia": "https://en.wikipedia.org/wiki/Sledgehammer_Games",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Sledgehammer_Games_logo_%282009-2021%29.svg/330px-Sledgehammer_Games_logo_%282009-2021%29.svg.png",
+        "width": 320,
+        "height": 63,
+        "credit": "Rayukk · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Sledgehammer_Games_logo_(2009-2021).svg"
+      },
+      "leader": {
+        "name": "Aaron Halon",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "sloclap": {
+      "wikidata": "Q24664854",
+      "wikipedia": "https://en.wikipedia.org/wiki/Sloclap"
+    },
+    "sonic-team": {
+      "wikidata": "Q1140960",
+      "wikipedia": "https://en.wikipedia.org/wiki/Sonic_Team",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Sonic_Team_logo_stone.jpg/330px-Sonic_Team_logo_stone.jpg",
+        "width": 320,
+        "height": 137,
+        "credit": "SEGA · CC BY 3.0",
+        "source": "https://commons.wikimedia.org/wiki/File:Sonic_Team_logo_stone.jpg"
+      },
+      "leader": {
+        "name": "Takashi Iizuka",
+        "role": "Studio head",
+        "source": "wikipedia",
+        "wikipedia": "https://en.wikipedia.org/wiki/Takashi_Iizuka_(game_designer)",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/A_signing_with_mr_takashi_iizuka_%28Cropped_2%29.jpg/330px-A_signing_with_mr_takashi_iizuka_%28Cropped_2%29.jpg",
+          "width": 320,
+          "height": 379,
+          "credit": "DarkGamer2011 · CC BY 3.0",
+          "source": "https://commons.wikimedia.org/wiki/File:A_signing_with_mr_takashi_iizuka_(Cropped_2).jpg"
+        }
+      }
+    },
+    "sora-ltd": {
+      "wikidata": "Q1317078",
+      "wikipedia": "https://en.wikipedia.org/wiki/Sora_Ltd.",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Sora_Ltd._Logo.svg/330px-Sora_Ltd._Logo.svg.png",
+        "width": 320,
+        "height": 73,
+        "credit": "w:Masahiro Sakurai · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Sora_Ltd._Logo.svg"
+      }
+    },
+    "square-enix": {
+      "wikidata": "Q207784",
+      "wikipedia": "https://en.wikipedia.org/wiki/Square_Enix",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Square_Enix_logo.svg/330px-Square_Enix_logo.svg.png",
+        "width": 320,
+        "height": 34,
+        "credit": "User:GaeMFreeK , created by Square Enix · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Square_Enix_logo.svg"
+      },
+      "leader": {
+        "name": "Takashi Kiryu",
+        "role": "President",
+        "source": "wikipedia"
+      }
+    },
+    "studio-mdhr": {
+      "wikidata": "Q105450826",
+      "wikipedia": "https://en.wikipedia.org/wiki/Studio_MDHR"
+    },
+    "studio-zero": {
+      "wikidata": "Q140288231"
+    },
+    "sucker-punch-productions": {
+      "wikidata": "Q916714",
+      "wikipedia": "https://en.wikipedia.org/wiki/Sucker_Punch_Productions",
+      "leader": {
+        "name": "Adrian Bentley",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "supergiant-games": {
+      "wikidata": "Q7643396",
+      "wikipedia": "https://en.wikipedia.org/wiki/Supergiant_Games",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Supergiant_Games_logo_2color.svg/330px-Supergiant_Games_logo_2color.svg.png",
+        "width": 320,
+        "height": 81,
+        "credit": "Supergiant Games · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Supergiant_Games_logo_2color.svg"
+      }
+    },
+    "tango-gameworks": {
+      "wikidata": "Q7480253",
+      "wikipedia": "https://en.wikipedia.org/wiki/Tango_Gameworks",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Tango_Gameworks_wordmark.svg/330px-Tango_Gameworks_wordmark.svg.png",
+        "width": 320,
+        "height": 41,
+        "credit": "Original: Tango Gameworks; Colors inverted by FireDragonValo · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Tango_Gameworks_wordmark.svg"
+      },
+      "leader": {
+        "name": "Colin Mack",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "tarsier-studios": {
+      "wikidata": "Q1317020",
+      "wikipedia": "https://en.wikipedia.org/wiki/Tarsier_Studios",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Tarsier_Studios.svg/330px-Tarsier_Studios.svg.png",
+        "width": 320,
+        "height": 147,
+        "credit": "w:Embracer Group · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Tarsier_Studios.svg"
+      },
+      "leader": {
+        "name": "Andreas Johnsson",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "team-asobi": {
+      "wikidata": "Q107198400",
+      "wikipedia": "https://en.wikipedia.org/wiki/Team_Asobi"
+    },
+    "team-cherry": {
+      "wikidata": "Q29326164",
+      "wikipedia": "https://en.wikipedia.org/wiki/Team_Cherry_(developer)"
+    },
+    "team-ninja": {
+      "wikidata": "Q2740414",
+      "wikipedia": "https://en.wikipedia.org/wiki/Team_Ninja",
+      "leader": {
+        "name": "Fumihiko Yasuda",
+        "role": "President",
+        "source": "wikipedia"
+      }
+    },
+    "the-coalition": {
+      "wikidata": "Q4922077",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Coalition_(company)",
+      "leader": {
+        "name": "Mike Crump",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "the-pokemon-company": {
+      "wikidata": "Q1156046",
+      "wikipedia": "https://en.wikipedia.org/wiki/The_Pok%C3%A9mon_Company",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/The_Pokemon_Company_text_logo.svg/330px-The_Pokemon_Company_text_logo.svg.png",
+        "width": 320,
+        "height": 30,
+        "credit": "The Pokémon Company · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Pokemon_Company_text_logo.svg"
+      },
+      "leader": {
+        "name": "Tsunekazu Ishihara",
+        "role": "CEO",
+        "source": "wikipedia",
+        "wikipedia": "https://en.wikipedia.org/wiki/Tsunekazu_Ishihara"
+      }
+    },
+    "toys-for-bob": {
+      "wikidata": "Q2130108",
+      "wikipedia": "https://en.wikipedia.org/wiki/Toys_for_Bob",
+      "leader": {
+        "name": "Paul Yan",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "treyarch": {
+      "wikidata": "Q382543",
+      "wikipedia": "https://en.wikipedia.org/wiki/Treyarch",
+      "leader": {
+        "name": "Kevin Hendrickson",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "tt-games": {
+      "wikidata": "Q4131576",
+      "wikipedia": "https://en.wikipedia.org/wiki/TT_Games",
+      "leader": {
+        "name": "Michael Denny",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "turn-10-studios": {
+      "wikidata": "Q130729",
+      "wikipedia": "https://en.wikipedia.org/wiki/Turn_10_Studios",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Turn_10_Studios_logo.svg/330px-Turn_10_Studios_logo.svg.png",
+        "width": 320,
+        "height": 296,
+        "credit": "Turn 10 Studios · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Turn_10_Studios_logo.svg"
+      },
+      "leader": {
+        "name": "Dan Greenawalt",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "ubisoft": {
+      "wikidata": "Q188273",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ubisoft",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Ubisoft_logo.svg/330px-Ubisoft_logo.svg.png",
+        "width": 320,
+        "height": 293,
+        "credit": "Ubisoft · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Ubisoft_logo.svg"
+      },
+      "leader": {
+        "name": "Yves Guillemot",
+        "role": "CEO",
+        "source": "wikidata",
+        "wikidata": "Q3573697",
+        "wikipedia": "https://en.wikipedia.org/wiki/Yves_Guillemot",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Yves_Guillemot.jpg/330px-Yves_Guillemot.jpg",
+          "width": 320,
+          "height": 240,
+          "credit": "Jesusbella · CC BY-SA 4.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Yves_Guillemot.jpg"
+        }
+      }
+    },
+    "ubisoft-bordeaux": {
+      "wikidata": "Q29888194",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ubisoft_Bordeaux"
+    },
+    "ubisoft-milan": {
+      "wikidata": "Q2807996",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ubisoft_Milan"
+    },
+    "ubisoft-montpellier": {
+      "wikidata": "Q2083518",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ubisoft_Montpellier"
+    },
+    "ubisoft-montreal": {
+      "wikidata": "Q903621",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ubisoft_Montreal",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Logo_Ubisoft_Montreal.png/330px-Logo_Ubisoft_Montreal.png",
+        "width": 320,
+        "height": 106,
+        "credit": "Ubisoft · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Logo_Ubisoft_Montreal.png"
+      }
+    },
+    "ubisoft-paris": {
+      "wikidata": "Q1041320",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ubisoft_Paris"
+    },
+    "ubisoft-quebec": {
+      "wikidata": "Q3547650",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ubisoft_Quebec"
+    },
+    "ubisoft-toronto": {
+      "wikidata": "Q500799",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ubisoft_Toronto",
+      "leader": {
+        "name": "Darryl Long",
+        "role": "Managing director",
+        "source": "wikipedia"
+      }
+    },
+    "valve": {
+      "wikidata": "Q193559",
+      "wikipedia": "https://en.wikipedia.org/wiki/Valve_Corporation",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Valve_logo.svg/330px-Valve_logo.svg.png",
+        "width": 320,
+        "height": 89,
+        "credit": "Valve Corporation · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Valve_logo.svg"
+      },
+      "leader": {
+        "name": "Gabe Newell",
+        "role": "CEO",
+        "source": "wikidata",
+        "wikidata": "Q347418",
+        "wikipedia": "https://en.wikipedia.org/wiki/Gabe_Newell",
+        "photo": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Gabe_Newell_GDC_2010_%28cropped_2%29.jpg/330px-Gabe_Newell_GDC_2010_%28cropped_2%29.jpg",
+          "width": 320,
+          "height": 396,
+          "credit": "Official GDC · CC BY 2.0",
+          "source": "https://commons.wikimedia.org/wiki/File:Gabe_Newell_GDC_2010_(cropped_2).jpg"
+        }
+      }
+    },
+    "vicarious-visions": {
+      "wikidata": "Q1947354",
+      "wikipedia": "https://en.wikipedia.org/wiki/Blizzard_Albany",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Vicarious_Visions_Logo.svg/330px-Vicarious_Visions_Logo.svg.png",
+        "width": 320,
+        "height": 49,
+        "credit": "Vicarious Visions · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Vicarious_Visions_Logo.svg"
+      },
+      "leader": {
+        "name": "Simon Ebejer",
+        "role": "Studio head",
+        "source": "wikipedia"
+      }
+    },
+    "virtuos": {
+      "wikidata": "Q7935221",
+      "wikipedia": "https://en.wikipedia.org/wiki/Virtuos",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Virtuos_logo.svg/330px-Virtuos_logo.svg.png",
+        "width": 320,
+        "height": 77,
+        "credit": "Virtuos Games · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Virtuos_logo.svg"
+      },
+      "leader": {
+        "name": "Gilles Langourieux",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "visual-concepts": {
+      "wikidata": "Q133482",
+      "wikipedia": "https://en.wikipedia.org/wiki/Visual_Concepts",
+      "logo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Visual_Concepts_Logo_%282019%29.png",
+        "width": 320,
+        "height": 452,
+        "credit": "Take-Two Interactive Software, Inc. · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Visual_Concepts_Logo_(2019).png"
+      },
+      "leader": {
+        "name": "Greg Thomas",
+        "role": "President",
+        "source": "wikipedia"
+      }
+    },
+    "warhorse-studios": {
+      "wikidata": "Q7969414",
+      "wikipedia": "https://en.wikipedia.org/wiki/Warhorse_Studios",
+      "leader": {
+        "name": "Martin Frývaldský",
+        "role": "CEO",
+        "source": "wikipedia"
+      }
+    },
+    "wb-games": {
+      "wikidata": "Q2319420",
+      "wikipedia": "https://en.wikipedia.org/wiki/Warner_Bros._Games",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Warner_Bros._Games.svg/330px-Warner_Bros._Games.svg.png",
+        "width": 320,
+        "height": 446,
+        "credit": "Warner Bros. Discovery · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Warner_Bros._Games.svg"
+      }
+    },
+    "xbox-game-studios": {
+      "wikidata": "Q73801",
+      "wikipedia": "https://en.wikipedia.org/wiki/Xbox_Game_Studios",
+      "logo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Xbox_Game_Studios.svg/330px-Xbox_Game_Studios.svg.png",
+        "width": 320,
+        "height": 186,
+        "credit": "Microsoft · Public domain",
+        "source": "https://commons.wikimedia.org/wiki/File:Xbox_Game_Studios.svg"
+      }
+    },
+    "zaum": {
+      "wikidata": "Q20529838",
+      "wikipedia": "https://en.wikipedia.org/wiki/ZA%2FUM"
+    }
+  }
+}

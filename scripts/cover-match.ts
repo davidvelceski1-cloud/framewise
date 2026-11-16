@@ -14,7 +14,15 @@ export const normTitle = (s: string) =>
     .replace(/[̀-ͯ]/g, "")
     .replace(/&/g, "and")
     .replace(/[^a-z0-9]+/g, " ")
-    .trim();
+    .trim()
+    // "Baldur's Gate III" and "Baldur's Gate 3" compare equal (standalone numerals II–XX only)
+    .replace(/\b(?=[ivx]{2,5}\b)(x{0,2})(ix|iv|v?i{0,3})\b/g, (m, tens: string, ones: string) => String(tens.length * 10 + ROMAN[ones]));
+
+const ROMAN: Record<string, number> = { "": 0, i: 1, ii: 2, iii: 3, iv: 4, v: 5, vi: 6, vii: 7, viii: 8, ix: 9 };
+
+const EDITION = /:?\s*(?:the\s+)?(?:final cut|director'?s cut|definitive edition|game of the year edition|goty edition|complete edition|enhanced edition)$/i;
+/** "Disco Elysium: The Final Cut" → "Disco Elysium" (some sources only list the base game); undefined when there's no edition suffix. */
+export const baseTitle = (title: string) => (EDITION.test(title) ? title.replace(EDITION, "").trim() : undefined);
 
 /** "God of War (2018)" → search "God of War", prefer 2018. */
 export function queryFor(title: string, releaseDate: string) {
@@ -23,13 +31,18 @@ export function queryFor(title: string, releaseDate: string) {
 }
 
 export function pickBest(title: string, releaseDate: string, candidates: IgdbCandidate[]) {
+  return pickBestBy(title, releaseDate, candidates.filter((c) => c.cover?.image_id), (c) => c.first_release_date);
+}
+
+/** Same matching rules for any source: `releaseSeconds` gives a candidate's unix release date, if known. */
+export function pickBestBy<T extends { name: string }>(title: string, releaseDate: string, candidates: T[], releaseSeconds: (c: T) => number | undefined): T | null {
   const { name, year } = queryFor(title, releaseDate);
   const want = normTitle(name);
   const scored = candidates
-    .filter((c) => c.cover?.image_id)
     .map((c) => {
       const n = normTitle(c.name);
-      const y = c.first_release_date ? new Date(c.first_release_date * 1000).getUTCFullYear() : undefined;
+      const secs = releaseSeconds(c);
+      const y = secs ? new Date(secs * 1000).getUTCFullYear() : undefined;
       let score = 0;
       if (n === want) score += 100;
       else if (n.startsWith(want) || want.startsWith(n)) score += 30;
